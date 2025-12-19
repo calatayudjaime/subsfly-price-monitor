@@ -1,0 +1,5347 @@
+{
+  "settings": {
+    "country": "España",
+    "currency": "EUR",
+    "version": "1.0.0"
+  },
+  "categories": {
+    "ia": {
+      "name": "Herramientas IA",
+      "icon": "🤖",
+      "platforms": [
+        {
+          "id": "chatgpt_plus",
+          "name": "ChatGPT Plus",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://openai.com"
+        },
+        {
+          "id": "chatgpt_team_mensual",
+          "name": "ChatGPT Team Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://openai.com"
+        },
+        {
+          "id": "chatgpt_team_anual",
+          "name": "ChatGPT Team Anual",
+          "monthly_price": 30.0,
+          "annual_price": 300.0,
+          "url": "https://openai.com"
+        },
+        {
+          "id": "claude_enterprise",
+          "name": "Claude Enterprise",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://claude.ai/pricing/enterprise"
+        },
+        {
+          "id": "gemini_advanced",
+          "name": "Gemini Advanced",
+          "monthly_price": 21.99,
+          "annual_price": null,
+          "url": "https://gemini.google.com"
+        },
+        {
+          "id": "copilot_pro",
+          "name": "Microsoft Copilot Pro",
+          "monthly_price": 22.0,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "perplexity_pro_mensual",
+          "name": "Perplexity Pro Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://www.perplexity.ai"
+        },
+        {
+          "id": "perplexity_pro_anual",
+          "name": "Perplexity Pro Anual",
+          "monthly_price": 20.0,
+          "annual_price": 200.0,
+          "url": "https://www.perplexity.ai"
+        },
+        {
+          "id": "you.com_pro_mensual",
+          "name": "You.com Pro Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://you.com"
+        },
+        {
+          "id": "you.com_pro_anual",
+          "name": "You.com Pro Anual",
+          "monthly_price": 15.0,
+          "annual_price": 150.0,
+          "url": "https://you.com"
+        },
+        {
+          "id": "pi_personal_ai",
+          "name": "Pi Personal AI",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://pi.ai"
+        },
+        {
+          "id": "character.ai_plus",
+          "name": "Character.AI Plus",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://character.ai"
+        },
+        {
+          "id": "poe_subscription_mensual",
+          "name": "Poe Subscription Mensual",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://poe.com"
+        },
+        {
+          "id": "poe_subscription_anual",
+          "name": "Poe Subscription Anual",
+          "monthly_price": 19.99,
+          "annual_price": 199.99,
+          "url": "https://poe.com"
+        },
+        {
+          "id": "midjourney_basico_mensual",
+          "name": "Midjourney Básico Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "midjourney_basico_anual",
+          "name": "Midjourney Básico Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "midjourney_estandar_mensual",
+          "name": "Midjourney Estándar Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "midjourney_estandar_anual",
+          "name": "Midjourney Estándar Anual",
+          "monthly_price": 30.0,
+          "annual_price": 288.0,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "midjourney_pro_mensual",
+          "name": "Midjourney Pro Mensual",
+          "monthly_price": 60.0,
+          "annual_price": null,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "midjourney_pro_anual",
+          "name": "Midjourney Pro Anual",
+          "monthly_price": 60.0,
+          "annual_price": 576.0,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "midjourney_mega_mensual",
+          "name": "Midjourney Mega Mensual",
+          "monthly_price": 120.0,
+          "annual_price": null,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "midjourney_mega_anual",
+          "name": "Midjourney Mega Anual",
+          "monthly_price": 120.0,
+          "annual_price": 1152.0,
+          "url": "https://www.midjourney.com"
+        },
+        {
+          "id": "dall-e_3",
+          "name": "DALL-E 3",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://openai.com"
+        },
+        {
+          "id": "stable_diffusion_pro_mensual",
+          "name": "Stable Diffusion Pro Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://stability.ai"
+        },
+        {
+          "id": "stable_diffusion_pro_anual",
+          "name": "Stable Diffusion Pro Anual",
+          "monthly_price": 10.0,
+          "annual_price": 100.0,
+          "url": "https://stability.ai"
+        },
+        {
+          "id": "leonardo.ai_mensual",
+          "name": "Leonardo.ai Apprentice Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://leonardo.ai"
+        },
+        {
+          "id": "leonardo.ai_anual",
+          "name": "Leonardo.ai Apprentice Anual",
+          "monthly_price": 12.0,
+          "annual_price": 120.0,
+          "url": "https://leonardo.ai"
+        },
+        {
+          "id": "leonardo.ai_artisan_mensual",
+          "name": "Leonardo.ai Artisan Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://leonardo.ai"
+        },
+        {
+          "id": "leonardo.ai_artisan_anual",
+          "name": "Leonardo.ai Artisan Anual",
+          "monthly_price": 30.0,
+          "annual_price": 300.0,
+          "url": "https://leonardo.ai"
+        },
+        {
+          "id": "leonardo.ai_maestro_mensual",
+          "name": "Leonardo.ai Maestro Mensual",
+          "monthly_price": 60.0,
+          "annual_price": null,
+          "url": "https://leonardo.ai"
+        },
+        {
+          "id": "leonardo.ai_maestro_anual",
+          "name": "Leonardo.ai Maestro Anual",
+          "monthly_price": 60.0,
+          "annual_price": 600.0,
+          "url": "https://leonardo.ai"
+        },
+        {
+          "id": "ideogram_pro_mensual",
+          "name": "Ideogram Pro Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://ideogram.ai"
+        },
+        {
+          "id": "ideogram_pro_anual",
+          "name": "Ideogram Pro Anual",
+          "monthly_price": 20.0,
+          "annual_price": 192.0,
+          "url": "https://ideogram.ai"
+        },
+        {
+          "id": "playground_ai_pro_mensual",
+          "name": "Playground AI Pro Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://playgroundai.com"
+        },
+        {
+          "id": "playground_ai_pro_anual",
+          "name": "Playground AI Pro Anual",
+          "monthly_price": 15.0,
+          "annual_price": 144.0,
+          "url": "https://playgroundai.com"
+        },
+        {
+          "id": "nightcafe_creator_mensual",
+          "name": "NightCafe Creator Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://nightcafe.studio"
+        },
+        {
+          "id": "nightcafe_creator_anual",
+          "name": "NightCafe Creator Anual",
+          "monthly_price": 9.99,
+          "annual_price": 79.99,
+          "url": "https://nightcafe.studio"
+        },
+        {
+          "id": "artbreeder_starter_mensual",
+          "name": "Artbreeder Starter Mensual",
+          "monthly_price": 8.99,
+          "annual_price": null,
+          "url": "https://www.artbreeder.com"
+        },
+        {
+          "id": "artbreeder_starter_anual",
+          "name": "Artbreeder Starter Anual",
+          "monthly_price": 8.99,
+          "annual_price": 89.99,
+          "url": "https://www.artbreeder.com"
+        },
+        {
+          "id": "jasper_creator_mensual",
+          "name": "Jasper Creator Mensual",
+          "monthly_price": 49.0,
+          "annual_price": null,
+          "url": "https://www.jasper.ai"
+        },
+        {
+          "id": "jasper_creator_anual",
+          "name": "Jasper Creator Anual",
+          "monthly_price": 49.0,
+          "annual_price": 468.0,
+          "url": "https://www.jasper.ai"
+        },
+        {
+          "id": "jasper_pro_mensual",
+          "name": "Jasper Pro Mensual",
+          "monthly_price": 69.0,
+          "annual_price": null,
+          "url": "https://www.jasper.ai"
+        },
+        {
+          "id": "jasper_pro_anual",
+          "name": "Jasper Pro Anual",
+          "monthly_price": 69.0,
+          "annual_price": 660.0,
+          "url": "https://www.jasper.ai"
+        },
+        {
+          "id": "copy.ai_starter_mensual",
+          "name": "Copy.ai Starter Mensual",
+          "monthly_price": 49.0,
+          "annual_price": null,
+          "url": "https://www.copy.ai"
+        },
+        {
+          "id": "copy.ai_starter_anual",
+          "name": "Copy.ai Starter Anual",
+          "monthly_price": 49.0,
+          "annual_price": 432.0,
+          "url": "https://www.copy.ai"
+        },
+        {
+          "id": "copy.ai_advanced_mensual",
+          "name": "Copy.ai Advanced Mensual",
+          "monthly_price": 249.0,
+          "annual_price": null,
+          "url": "https://www.copy.ai"
+        },
+        {
+          "id": "copy.ai_advanced_anual",
+          "name": "Copy.ai Advanced Anual",
+          "monthly_price": 249.0,
+          "annual_price": 2388.0,
+          "url": "https://www.copy.ai"
+        },
+        {
+          "id": "writesonic_starter_mensual",
+          "name": "Writesonic Starter Mensual",
+          "monthly_price": 19.0,
+          "annual_price": null,
+          "url": "https://writesonic.com"
+        },
+        {
+          "id": "writesonic_starter_anual",
+          "name": "Writesonic Starter Anual",
+          "monthly_price": 19.0,
+          "annual_price": 192.0,
+          "url": "https://writesonic.com"
+        },
+        {
+          "id": "writesonic_professional_mensual",
+          "name": "Writesonic Professional Mensual",
+          "monthly_price": 99.0,
+          "annual_price": null,
+          "url": "https://writesonic.com"
+        },
+        {
+          "id": "writesonic_professional_anual",
+          "name": "Writesonic Professional Anual",
+          "monthly_price": 99.0,
+          "annual_price": 999.0,
+          "url": "https://writesonic.com"
+        },
+        {
+          "id": "rytr_unlimited_mensual",
+          "name": "Rytr Unlimited Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://rytr.me"
+        },
+        {
+          "id": "rytr_unlimited_anual",
+          "name": "Rytr Unlimited Anual",
+          "monthly_price": 29.0,
+          "annual_price": 290.0,
+          "url": "https://rytr.me"
+        },
+        {
+          "id": "quillbot_premium_mensual",
+          "name": "QuillBot Premium Mensual",
+          "monthly_price": 19.95,
+          "annual_price": null,
+          "url": "https://quillbot.com"
+        },
+        {
+          "id": "quillbot_premium_anual",
+          "name": "QuillBot Premium Anual",
+          "monthly_price": 19.95,
+          "annual_price": 99.95,
+          "url": "https://quillbot.com"
+        },
+        {
+          "id": "wordai_mensual",
+          "name": "WordAI Mensual",
+          "monthly_price": 57.0,
+          "annual_price": null,
+          "url": "https://wordai.com"
+        },
+        {
+          "id": "wordai_anual",
+          "name": "WordAI Anual",
+          "monthly_price": 57.0,
+          "annual_price": 327.0,
+          "url": "https://wordai.com"
+        },
+        {
+          "id": "article_forge_mensual",
+          "name": "Article Forge Mensual",
+          "monthly_price": 57.0,
+          "annual_price": null,
+          "url": "https://www.articleforge.com"
+        },
+        {
+          "id": "article_forge_anual",
+          "name": "Article Forge Anual",
+          "monthly_price": 57.0,
+          "annual_price": 324.0,
+          "url": "https://www.articleforge.com"
+        },
+        {
+          "id": "simplified_pro_mensual",
+          "name": "Simplified Pro Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://simplified.com"
+        },
+        {
+          "id": "simplified_pro_anual",
+          "name": "Simplified Pro Anual",
+          "monthly_price": 12.0,
+          "annual_price": 120.0,
+          "url": "https://simplified.com"
+        },
+        {
+          "id": "anyword_starter_mensual",
+          "name": "Anyword Starter Mensual",
+          "monthly_price": 49.0,
+          "annual_price": null,
+          "url": "https://anyword.com"
+        },
+        {
+          "id": "anyword_starter_anual",
+          "name": "Anyword Starter Anual",
+          "monthly_price": 49.0,
+          "annual_price": 468.0,
+          "url": "https://anyword.com"
+        },
+        {
+          "id": "github_copilot_individual_mensual",
+          "name": "GitHub Copilot Individual Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://github.com"
+        },
+        {
+          "id": "github_copilot_individual_anual",
+          "name": "GitHub Copilot Individual Anual",
+          "monthly_price": 10.0,
+          "annual_price": 100.0,
+          "url": "https://github.com"
+        },
+        {
+          "id": "github_copilot_business_mensual",
+          "name": "GitHub Copilot Business Mensual",
+          "monthly_price": 19.0,
+          "annual_price": null,
+          "url": "https://github.com"
+        },
+        {
+          "id": "github_copilot_business_anual",
+          "name": "GitHub Copilot Business Anual",
+          "monthly_price": 19.0,
+          "annual_price": 190.0,
+          "url": "https://github.com"
+        },
+        {
+          "id": "tabnine_pro_mensual",
+          "name": "Tabnine Pro Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://www.tabnine.com"
+        },
+        {
+          "id": "tabnine_pro_anual",
+          "name": "Tabnine Pro Anual",
+          "monthly_price": 12.0,
+          "annual_price": 144.0,
+          "url": "https://www.tabnine.com"
+        },
+        {
+          "id": "codeium_pro_mensual",
+          "name": "Codeium Pro Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://codeium.com"
+        },
+        {
+          "id": "codeium_pro_anual",
+          "name": "Codeium Pro Anual",
+          "monthly_price": 10.0,
+          "annual_price": 100.0,
+          "url": "https://codeium.com"
+        },
+        {
+          "id": "cursor_pro_mensual",
+          "name": "Cursor Pro Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://cursor.sh"
+        },
+        {
+          "id": "cursor_pro_anual",
+          "name": "Cursor Pro Anual",
+          "monthly_price": 20.0,
+          "annual_price": 192.0,
+          "url": "https://cursor.sh"
+        },
+        {
+          "id": "replit_core_mensual",
+          "name": "Replit Core Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://replit.com"
+        },
+        {
+          "id": "replit_core_anual",
+          "name": "Replit Core Anual",
+          "monthly_price": 20.0,
+          "annual_price": 220.0,
+          "url": "https://replit.com"
+        },
+        {
+          "id": "pieces_for_developers_mensual",
+          "name": "Pieces for Developers Mensual",
+          "monthly_price": 9.0,
+          "annual_price": null,
+          "url": "https://pieces.app"
+        },
+        {
+          "id": "pieces_for_developers_anual",
+          "name": "Pieces for Developers Anual",
+          "monthly_price": 9.0,
+          "annual_price": 90.0,
+          "url": "https://pieces.app"
+        },
+        {
+          "id": "sourcegraph_cody_mensual",
+          "name": "Sourcegraph Cody Mensual",
+          "monthly_price": 9.0,
+          "annual_price": null,
+          "url": "https://sourcegraph.com"
+        },
+        {
+          "id": "sourcegraph_cody_anual",
+          "name": "Sourcegraph Cody Anual",
+          "monthly_price": 9.0,
+          "annual_price": 90.0,
+          "url": "https://sourcegraph.com"
+        },
+        {
+          "id": "runway_standard_mensual",
+          "name": "Runway Standard Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://runwayml.com"
+        },
+        {
+          "id": "runway_standard_anual",
+          "name": "Runway Standard Anual",
+          "monthly_price": 15.0,
+          "annual_price": 144.0,
+          "url": "https://runwayml.com"
+        },
+        {
+          "id": "runway_pro_mensual",
+          "name": "Runway Pro Mensual",
+          "monthly_price": 35.0,
+          "annual_price": null,
+          "url": "https://runwayml.com"
+        },
+        {
+          "id": "runway_pro_anual",
+          "name": "Runway Pro Anual",
+          "monthly_price": 35.0,
+          "annual_price": 336.0,
+          "url": "https://runwayml.com"
+        },
+        {
+          "id": "runway_unlimited_mensual",
+          "name": "Runway Unlimited Mensual",
+          "monthly_price": 95.0,
+          "annual_price": null,
+          "url": "https://runwayml.com"
+        },
+        {
+          "id": "runway_unlimited_anual",
+          "name": "Runway Unlimited Anual",
+          "monthly_price": 95.0,
+          "annual_price": 912.0,
+          "url": "https://runwayml.com"
+        },
+        {
+          "id": "synthesia_personal_mensual",
+          "name": "Synthesia Personal Mensual",
+          "monthly_price": 22.0,
+          "annual_price": null,
+          "url": "https://www.synthesia.io"
+        },
+        {
+          "id": "synthesia_personal_anual",
+          "name": "Synthesia Personal Anual",
+          "monthly_price": 22.0,
+          "annual_price": 264.0,
+          "url": "https://www.synthesia.io"
+        },
+        {
+          "id": "synthesia_enterprise_mensual",
+          "name": "Synthesia Enterprise Mensual",
+          "monthly_price": 67.0,
+          "annual_price": null,
+          "url": "https://www.synthesia.io"
+        },
+        {
+          "id": "synthesia_enterprise_anual",
+          "name": "Synthesia Enterprise Anual",
+          "monthly_price": 67.0,
+          "annual_price": 804.0,
+          "url": "https://www.synthesia.io"
+        },
+        {
+          "id": "heygen_creator_mensual",
+          "name": "HeyGen Creator Mensual",
+          "monthly_price": 24.0,
+          "annual_price": null,
+          "url": "https://www.heygen.com"
+        },
+        {
+          "id": "heygen_creator_anual",
+          "name": "HeyGen Creator Anual",
+          "monthly_price": 24.0,
+          "annual_price": 240.0,
+          "url": "https://www.heygen.com"
+        },
+        {
+          "id": "heygen_business_mensual",
+          "name": "HeyGen Business Mensual",
+          "monthly_price": 72.0,
+          "annual_price": null,
+          "url": "https://www.heygen.com"
+        },
+        {
+          "id": "heygen_business_anual",
+          "name": "HeyGen Business Anual",
+          "monthly_price": 72.0,
+          "annual_price": 720.0,
+          "url": "https://www.heygen.com"
+        },
+        {
+          "id": "d-id_lite_mensual",
+          "name": "D-ID Lite Mensual",
+          "monthly_price": 5.9,
+          "annual_price": null,
+          "url": "https://www.d-id.com"
+        },
+        {
+          "id": "d-id_lite_anual",
+          "name": "D-ID Lite Anual",
+          "monthly_price": 5.9,
+          "annual_price": 59.0,
+          "url": "https://www.d-id.com"
+        },
+        {
+          "id": "d-id_pro_mensual",
+          "name": "D-ID Pro Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://www.d-id.com"
+        },
+        {
+          "id": "d-id_pro_anual",
+          "name": "D-ID Pro Anual",
+          "monthly_price": 29.0,
+          "annual_price": 290.0,
+          "url": "https://www.d-id.com"
+        },
+        {
+          "id": "descript_creator_mensual",
+          "name": "Descript Creator Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://www.descript.com"
+        },
+        {
+          "id": "descript_creator_anual",
+          "name": "Descript Creator Anual",
+          "monthly_price": 15.0,
+          "annual_price": 144.0,
+          "url": "https://www.descript.com"
+        },
+        {
+          "id": "descript_pro_mensual",
+          "name": "Descript Pro Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://www.descript.com"
+        },
+        {
+          "id": "descript_pro_anual",
+          "name": "Descript Pro Anual",
+          "monthly_price": 30.0,
+          "annual_price": 288.0,
+          "url": "https://www.descript.com"
+        },
+        {
+          "id": "pictory_standard_mensual",
+          "name": "Pictory Standard Mensual",
+          "monthly_price": 23.0,
+          "annual_price": null,
+          "url": "https://pictory.ai"
+        },
+        {
+          "id": "pictory_standard_anual",
+          "name": "Pictory Standard Anual",
+          "monthly_price": 23.0,
+          "annual_price": 228.0,
+          "url": "https://pictory.ai"
+        },
+        {
+          "id": "pictory_premium_mensual",
+          "name": "Pictory Premium Mensual",
+          "monthly_price": 47.0,
+          "annual_price": null,
+          "url": "https://pictory.ai"
+        },
+        {
+          "id": "pictory_premium_anual",
+          "name": "Pictory Premium Anual",
+          "monthly_price": 47.0,
+          "annual_price": 468.0,
+          "url": "https://pictory.ai"
+        },
+        {
+          "id": "invideo_business_mensual",
+          "name": "InVideo Business Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://invideo.io"
+        },
+        {
+          "id": "invideo_business_anual",
+          "name": "InVideo Business Anual",
+          "monthly_price": 30.0,
+          "annual_price": 180.0,
+          "url": "https://invideo.io"
+        },
+        {
+          "id": "lumen5_basic_mensual",
+          "name": "Lumen5 Basic Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://lumen5.com"
+        },
+        {
+          "id": "lumen5_basic_anual",
+          "name": "Lumen5 Basic Anual",
+          "monthly_price": 29.0,
+          "annual_price": 228.0,
+          "url": "https://lumen5.com"
+        },
+        {
+          "id": "fliki_standard_mensual",
+          "name": "Fliki Standard Mensual",
+          "monthly_price": 28.0,
+          "annual_price": null,
+          "url": "https://fliki.ai"
+        },
+        {
+          "id": "fliki_standard_anual",
+          "name": "Fliki Standard Anual",
+          "monthly_price": 28.0,
+          "annual_price": 252.0,
+          "url": "https://fliki.ai"
+        },
+        {
+          "id": "kapwing_pro_mensual",
+          "name": "Kapwing Pro Mensual",
+          "monthly_price": 24.0,
+          "annual_price": null,
+          "url": "https://www.kapwing.com"
+        },
+        {
+          "id": "kapwing_pro_anual",
+          "name": "Kapwing Pro Anual",
+          "monthly_price": 24.0,
+          "annual_price": 192.0,
+          "url": "https://www.kapwing.com"
+        },
+        {
+          "id": "steve.ai_basic_mensual",
+          "name": "Steve.AI Basic Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://www.steve.ai"
+        },
+        {
+          "id": "steve.ai_basic_anual",
+          "name": "Steve.AI Basic Anual",
+          "monthly_price": 20.0,
+          "annual_price": 180.0,
+          "url": "https://www.steve.ai"
+        },
+        {
+          "id": "elevenlabs_starter_mensual",
+          "name": "ElevenLabs Starter Mensual",
+          "monthly_price": 5.0,
+          "annual_price": null,
+          "url": "https://elevenlabs.io"
+        },
+        {
+          "id": "elevenlabs_starter_anual",
+          "name": "ElevenLabs Starter Anual",
+          "monthly_price": 5.0,
+          "annual_price": 50.0,
+          "url": "https://elevenlabs.io"
+        },
+        {
+          "id": "elevenlabs_creator_mensual",
+          "name": "ElevenLabs Creator Mensual",
+          "monthly_price": 22.0,
+          "annual_price": null,
+          "url": "https://elevenlabs.io"
+        },
+        {
+          "id": "elevenlabs_creator_anual",
+          "name": "ElevenLabs Creator Anual",
+          "monthly_price": 22.0,
+          "annual_price": 220.0,
+          "url": "https://elevenlabs.io"
+        },
+        {
+          "id": "elevenlabs_pro_mensual",
+          "name": "ElevenLabs Pro Mensual",
+          "monthly_price": 99.0,
+          "annual_price": null,
+          "url": "https://elevenlabs.io"
+        },
+        {
+          "id": "elevenlabs_pro_anual",
+          "name": "ElevenLabs Pro Anual",
+          "monthly_price": 99.0,
+          "annual_price": 990.0,
+          "url": "https://elevenlabs.io"
+        },
+        {
+          "id": "murf_basic_mensual",
+          "name": "Murf Basic Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://murf.ai"
+        },
+        {
+          "id": "murf_basic_anual",
+          "name": "Murf Basic Anual",
+          "monthly_price": 29.0,
+          "annual_price": 228.0,
+          "url": "https://murf.ai"
+        },
+        {
+          "id": "murf_pro_mensual",
+          "name": "Murf Pro Mensual",
+          "monthly_price": 39.0,
+          "annual_price": null,
+          "url": "https://murf.ai"
+        },
+        {
+          "id": "murf_pro_anual",
+          "name": "Murf Pro Anual",
+          "monthly_price": 39.0,
+          "annual_price": 312.0,
+          "url": "https://murf.ai"
+        },
+        {
+          "id": "play.ht_personal_mensual",
+          "name": "Play.ht Personal Mensual",
+          "monthly_price": 31.2,
+          "annual_price": null,
+          "url": "https://play.ht"
+        },
+        {
+          "id": "play.ht_personal_anual",
+          "name": "Play.ht Personal Anual",
+          "monthly_price": 31.2,
+          "annual_price": 374.4,
+          "url": "https://play.ht"
+        },
+        {
+          "id": "play.ht_professional_mensual",
+          "name": "Play.ht Professional Mensual",
+          "monthly_price": 39.0,
+          "annual_price": null,
+          "url": "https://play.ht"
+        },
+        {
+          "id": "play.ht_professional_anual",
+          "name": "Play.ht Professional Anual",
+          "monthly_price": 39.0,
+          "annual_price": 468.0,
+          "url": "https://play.ht"
+        },
+        {
+          "id": "speechify_premium_mensual",
+          "name": "Speechify Premium Mensual",
+          "monthly_price": 11.58,
+          "annual_price": null,
+          "url": "https://speechify.com"
+        },
+        {
+          "id": "speechify_premium_anual",
+          "name": "Speechify Premium Anual",
+          "monthly_price": 11.58,
+          "annual_price": 139.0,
+          "url": "https://speechify.com"
+        },
+        {
+          "id": "resemble_basic_mensual",
+          "name": "Resemble Basic Mensual",
+          "monthly_price": 49.0,
+          "annual_price": null,
+          "url": "https://www.resemble.ai"
+        },
+        {
+          "id": "resemble_basic_anual",
+          "name": "Resemble Basic Anual",
+          "monthly_price": 49.0,
+          "annual_price": 490.0,
+          "url": "https://www.resemble.ai"
+        },
+        {
+          "id": "wellsaid_studio_mensual",
+          "name": "WellSaid Studio Mensual",
+          "monthly_price": 44.0,
+          "annual_price": null,
+          "url": "https://wellsaidlabs.com"
+        },
+        {
+          "id": "wellsaid_studio_anual",
+          "name": "WellSaid Studio Anual",
+          "monthly_price": 44.0,
+          "annual_price": 440.0,
+          "url": "https://wellsaidlabs.com"
+        },
+        {
+          "id": "suno_pro_mensual",
+          "name": "Suno Pro Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://suno.ai"
+        },
+        {
+          "id": "suno_pro_anual",
+          "name": "Suno Pro Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://suno.ai"
+        },
+        {
+          "id": "suno_premier_mensual",
+          "name": "Suno Premier Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://suno.ai"
+        },
+        {
+          "id": "suno_premier_anual",
+          "name": "Suno Premier Anual",
+          "monthly_price": 30.0,
+          "annual_price": 288.0,
+          "url": "https://suno.ai"
+        },
+        {
+          "id": "udio_standard_mensual",
+          "name": "Udio Standard Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.udio.com"
+        },
+        {
+          "id": "udio_standard_anual",
+          "name": "Udio Standard Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://www.udio.com"
+        },
+        {
+          "id": "udio_pro_mensual",
+          "name": "Udio Pro Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://www.udio.com"
+        },
+        {
+          "id": "udio_pro_anual",
+          "name": "Udio Pro Anual",
+          "monthly_price": 30.0,
+          "annual_price": 288.0,
+          "url": "https://www.udio.com"
+        },
+        {
+          "id": "soundraw_mensual",
+          "name": "Soundraw Mensual",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://soundraw.io"
+        },
+        {
+          "id": "soundraw_anual",
+          "name": "Soundraw Anual",
+          "monthly_price": 16.99,
+          "annual_price": 169.99,
+          "url": "https://soundraw.io"
+        },
+        {
+          "id": "mubert_creator_mensual",
+          "name": "Mubert Creator Mensual",
+          "monthly_price": 14.0,
+          "annual_price": null,
+          "url": "https://mubert.com"
+        },
+        {
+          "id": "mubert_creator_anual",
+          "name": "Mubert Creator Anual",
+          "monthly_price": 14.0,
+          "annual_price": 140.0,
+          "url": "https://mubert.com"
+        },
+        {
+          "id": "boomy_premium_mensual",
+          "name": "Boomy Premium Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://boomy.com"
+        },
+        {
+          "id": "boomy_premium_anual",
+          "name": "Boomy Premium Anual",
+          "monthly_price": 9.99,
+          "annual_price": 99.99,
+          "url": "https://boomy.com"
+        },
+        {
+          "id": "beatoven.ai_mensual",
+          "name": "Beatoven.ai Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://www.beatoven.ai"
+        },
+        {
+          "id": "beatoven.ai_anual",
+          "name": "Beatoven.ai Anual",
+          "monthly_price": 20.0,
+          "annual_price": 200.0,
+          "url": "https://www.beatoven.ai"
+        },
+        {
+          "id": "surfer_seo_essential_mensual",
+          "name": "Surfer SEO Essential Mensual",
+          "monthly_price": 89.0,
+          "annual_price": null,
+          "url": "https://surferseo.com"
+        },
+        {
+          "id": "surfer_seo_essential_anual",
+          "name": "Surfer SEO Essential Anual",
+          "monthly_price": 89.0,
+          "annual_price": 890.0,
+          "url": "https://surferseo.com"
+        },
+        {
+          "id": "surfer_seo_scale_mensual",
+          "name": "Surfer SEO Scale Mensual",
+          "monthly_price": 179.0,
+          "annual_price": null,
+          "url": "https://surferseo.com"
+        },
+        {
+          "id": "surfer_seo_scale_anual",
+          "name": "Surfer SEO Scale Anual",
+          "monthly_price": 179.0,
+          "annual_price": 1790.0,
+          "url": "https://surferseo.com"
+        },
+        {
+          "id": "frase_basic_mensual",
+          "name": "Frase Basic Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://www.frase.io"
+        },
+        {
+          "id": "frase_basic_anual",
+          "name": "Frase Basic Anual",
+          "monthly_price": 15.0,
+          "annual_price": 150.0,
+          "url": "https://www.frase.io"
+        },
+        {
+          "id": "frase_team_mensual",
+          "name": "Frase Team Mensual",
+          "monthly_price": 115.0,
+          "annual_price": null,
+          "url": "https://www.frase.io"
+        },
+        {
+          "id": "frase_team_anual",
+          "name": "Frase Team Anual",
+          "monthly_price": 115.0,
+          "annual_price": 1150.0,
+          "url": "https://www.frase.io"
+        },
+        {
+          "id": "marketmuse_standard_mensual",
+          "name": "MarketMuse Standard Mensual",
+          "monthly_price": 149.0,
+          "annual_price": null,
+          "url": "https://www.marketmuse.com"
+        },
+        {
+          "id": "marketmuse_standard_anual",
+          "name": "MarketMuse Standard Anual",
+          "monthly_price": 149.0,
+          "annual_price": 1788.0,
+          "url": "https://www.marketmuse.com"
+        },
+        {
+          "id": "clearscope_essentials_mensual",
+          "name": "Clearscope Essentials Mensual",
+          "monthly_price": 189.0,
+          "annual_price": null,
+          "url": "https://www.clearscope.io"
+        },
+        {
+          "id": "clearscope_essentials_anual",
+          "name": "Clearscope Essentials Anual",
+          "monthly_price": 189.0,
+          "annual_price": 1890.0,
+          "url": "https://www.clearscope.io"
+        },
+        {
+          "id": "adobe_firefly_mensual",
+          "name": "Adobe Firefly Premium Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_firefly_anual",
+          "name": "Adobe Firefly Premium Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "khroma_pro_mensual",
+          "name": "Khroma Pro Mensual",
+          "monthly_price": 5.0,
+          "annual_price": null,
+          "url": "https://www.khroma.co"
+        },
+        {
+          "id": "khroma_pro_anual",
+          "name": "Khroma Pro Anual",
+          "monthly_price": 5.0,
+          "annual_price": 50.0,
+          "url": "https://www.khroma.co"
+        },
+        {
+          "id": "looka_premium",
+          "name": "Looka Premium",
+          "monthly_price": 96.0,
+          "annual_price": null,
+          "url": "https://looka.com"
+        },
+        {
+          "id": "designs.ai_basic_mensual",
+          "name": "Designs.ai Basic Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://designs.ai"
+        },
+        {
+          "id": "designs.ai_basic_anual",
+          "name": "Designs.ai Basic Anual",
+          "monthly_price": 29.0,
+          "annual_price": 290.0,
+          "url": "https://designs.ai"
+        },
+        {
+          "id": "uizard_pro_mensual",
+          "name": "Uizard Pro Mensual",
+          "monthly_price": 19.0,
+          "annual_price": null,
+          "url": "https://uizard.io"
+        },
+        {
+          "id": "uizard_pro_anual",
+          "name": "Uizard Pro Anual",
+          "monthly_price": 19.0,
+          "annual_price": 190.0,
+          "url": "https://uizard.io"
+        },
+        {
+          "id": "deepl_pro_starter_mensual",
+          "name": "DeepL Pro Starter Mensual",
+          "monthly_price": 8.74,
+          "annual_price": null,
+          "url": "https://www.deepl.com"
+        },
+        {
+          "id": "deepl_pro_starter_anual",
+          "name": "DeepL Pro Starter Anual",
+          "monthly_price": 8.74,
+          "annual_price": 104.88,
+          "url": "https://www.deepl.com"
+        },
+        {
+          "id": "deepl_pro_advanced_mensual",
+          "name": "DeepL Pro Advanced Mensual",
+          "monthly_price": 28.74,
+          "annual_price": null,
+          "url": "https://www.deepl.com"
+        },
+        {
+          "id": "deepl_pro_advanced_anual",
+          "name": "DeepL Pro Advanced Anual",
+          "monthly_price": 28.74,
+          "annual_price": 344.88,
+          "url": "https://www.deepl.com"
+        },
+        {
+          "id": "deepl_pro_ultimate_mensual",
+          "name": "DeepL Pro Ultimate Mensual",
+          "monthly_price": 57.49,
+          "annual_price": null,
+          "url": "https://www.deepl.com"
+        },
+        {
+          "id": "deepl_pro_ultimate_anual",
+          "name": "DeepL Pro Ultimate Anual",
+          "monthly_price": 57.49,
+          "annual_price": 689.88,
+          "url": "https://www.deepl.com"
+        },
+        {
+          "id": "elicit_plus_mensual",
+          "name": "Elicit Plus Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://elicit.org"
+        },
+        {
+          "id": "elicit_plus_anual",
+          "name": "Elicit Plus Anual",
+          "monthly_price": 10.0,
+          "annual_price": 100.0,
+          "url": "https://elicit.org"
+        },
+        {
+          "id": "consensus_premium_mensual",
+          "name": "Consensus Premium Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://consensus.app"
+        },
+        {
+          "id": "consensus_premium_anual",
+          "name": "Consensus Premium Anual",
+          "monthly_price": 9.99,
+          "annual_price": 99.99,
+          "url": "https://consensus.app"
+        },
+        {
+          "id": "scite_assistant_mensual",
+          "name": "Scite Assistant Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://scite.ai"
+        },
+        {
+          "id": "scite_assistant_anual",
+          "name": "Scite Assistant Anual",
+          "monthly_price": 20.0,
+          "annual_price": 200.0,
+          "url": "https://scite.ai"
+        },
+        {
+          "id": "research_rabbit",
+          "name": "Research Rabbit",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://www.researchrabbit.ai"
+        },
+        {
+          "id": "scholarcy_library_mensual",
+          "name": "Scholarcy Library Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.scholarcy.com"
+        },
+        {
+          "id": "scholarcy_library_anual",
+          "name": "Scholarcy Library Anual",
+          "monthly_price": 9.99,
+          "annual_price": 99.99,
+          "url": "https://www.scholarcy.com"
+        },
+        {
+          "id": "notion_ai_mensual",
+          "name": "Notion AI Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.notion.so"
+        },
+        {
+          "id": "notion_ai_anual",
+          "name": "Notion AI Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://www.notion.so"
+        },
+        {
+          "id": "mem_x_mensual",
+          "name": "Mem X Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://mem.ai"
+        },
+        {
+          "id": "mem_x_anual",
+          "name": "Mem X Anual",
+          "monthly_price": 14.99,
+          "annual_price": 149.99,
+          "url": "https://mem.ai"
+        },
+        {
+          "id": "obsidian_sync_mensual",
+          "name": "Obsidian Sync Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://obsidian.md"
+        },
+        {
+          "id": "obsidian_sync_anual",
+          "name": "Obsidian Sync Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://obsidian.md"
+        },
+        {
+          "id": "craft_pro_mensual",
+          "name": "Craft Pro Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.craft.do"
+        },
+        {
+          "id": "craft_pro_anual",
+          "name": "Craft Pro Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://www.craft.do"
+        },
+        {
+          "id": "coda_team_mensual",
+          "name": "Coda Team Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://coda.io"
+        },
+        {
+          "id": "coda_team_anual",
+          "name": "Coda Team Anual",
+          "monthly_price": 12.0,
+          "annual_price": 120.0,
+          "url": "https://coda.io"
+        },
+        {
+          "id": "clickup_unlimited_mensual",
+          "name": "ClickUp Unlimited Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://clickup.com"
+        },
+        {
+          "id": "clickup_unlimited_anual",
+          "name": "ClickUp Unlimited Anual",
+          "monthly_price": 10.0,
+          "annual_price": 84.0,
+          "url": "https://clickup.com"
+        },
+        {
+          "id": "taskade_pro_mensual",
+          "name": "Taskade Pro Mensual",
+          "monthly_price": 8.0,
+          "annual_price": null,
+          "url": "https://www.taskade.com"
+        },
+        {
+          "id": "taskade_pro_anual",
+          "name": "Taskade Pro Anual",
+          "monthly_price": 8.0,
+          "annual_price": 80.0,
+          "url": "https://www.taskade.com"
+        },
+        {
+          "id": "beautiful.ai_pro_mensual",
+          "name": "Beautiful.ai Pro Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://www.beautiful.ai"
+        },
+        {
+          "id": "beautiful.ai_pro_anual",
+          "name": "Beautiful.ai Pro Anual",
+          "monthly_price": 12.0,
+          "annual_price": 144.0,
+          "url": "https://www.beautiful.ai"
+        },
+        {
+          "id": "tome_pro_mensual",
+          "name": "Tome Pro Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://tome.app"
+        },
+        {
+          "id": "tome_pro_anual",
+          "name": "Tome Pro Anual",
+          "monthly_price": 20.0,
+          "annual_price": 192.0,
+          "url": "https://tome.app"
+        },
+        {
+          "id": "pitch_pro_mensual",
+          "name": "Pitch Pro Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://pitch.com"
+        },
+        {
+          "id": "pitch_pro_anual",
+          "name": "Pitch Pro Anual",
+          "monthly_price": 20.0,
+          "annual_price": 192.0,
+          "url": "https://pitch.com"
+        },
+        {
+          "id": "slidebean_all_access_mensual",
+          "name": "Slidebean All Access Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://slidebean.com"
+        },
+        {
+          "id": "slidebean_all_access_anual",
+          "name": "Slidebean All Access Anual",
+          "monthly_price": 29.0,
+          "annual_price": 290.0,
+          "url": "https://slidebean.com"
+        },
+        {
+          "id": "presentations.ai_mensual",
+          "name": "Presentations.ai Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://presentations.ai"
+        },
+        {
+          "id": "presentations.ai_anual",
+          "name": "Presentations.ai Anual",
+          "monthly_price": 20.0,
+          "annual_price": 200.0,
+          "url": "https://presentations.ai"
+        },
+        {
+          "id": "otter.ai_pro_mensual",
+          "name": "Otter.ai Pro Mensual",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://otter.ai"
+        },
+        {
+          "id": "otter.ai_pro_anual",
+          "name": "Otter.ai Pro Anual",
+          "monthly_price": 16.99,
+          "annual_price": 169.99,
+          "url": "https://otter.ai"
+        },
+        {
+          "id": "otter.ai_business_mensual",
+          "name": "Otter.ai Business Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://otter.ai"
+        },
+        {
+          "id": "otter.ai_business_anual",
+          "name": "Otter.ai Business Anual",
+          "monthly_price": 30.0,
+          "annual_price": 300.0,
+          "url": "https://otter.ai"
+        },
+        {
+          "id": "fireflies_pro_mensual",
+          "name": "Fireflies Pro Mensual",
+          "monthly_price": 18.0,
+          "annual_price": null,
+          "url": "https://fireflies.ai"
+        },
+        {
+          "id": "fireflies_pro_anual",
+          "name": "Fireflies Pro Anual",
+          "monthly_price": 18.0,
+          "annual_price": 120.0,
+          "url": "https://fireflies.ai"
+        },
+        {
+          "id": "fireflies_business_mensual",
+          "name": "Fireflies Business Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://fireflies.ai"
+        },
+        {
+          "id": "fireflies_business_anual",
+          "name": "Fireflies Business Anual",
+          "monthly_price": 29.0,
+          "annual_price": 228.0,
+          "url": "https://fireflies.ai"
+        },
+        {
+          "id": "fathom_team_mensual",
+          "name": "Fathom Team Mensual",
+          "monthly_price": 19.0,
+          "annual_price": null,
+          "url": "https://fathom.video"
+        },
+        {
+          "id": "fathom_team_anual",
+          "name": "Fathom Team Anual",
+          "monthly_price": 19.0,
+          "annual_price": 190.0,
+          "url": "https://fathom.video"
+        },
+        {
+          "id": "airgram_plus_mensual",
+          "name": "Airgram Plus Mensual",
+          "monthly_price": 18.0,
+          "annual_price": null,
+          "url": "https://www.airgram.io"
+        },
+        {
+          "id": "airgram_plus_anual",
+          "name": "Airgram Plus Anual",
+          "monthly_price": 18.0,
+          "annual_price": 180.0,
+          "url": "https://www.airgram.io"
+        },
+        {
+          "id": "meetgeek_pro_mensual",
+          "name": "MeetGeek Pro Mensual",
+          "monthly_price": 19.0,
+          "annual_price": null,
+          "url": "https://meetgeek.ai"
+        },
+        {
+          "id": "meetgeek_pro_anual",
+          "name": "MeetGeek Pro Anual",
+          "monthly_price": 19.0,
+          "annual_price": 190.0,
+          "url": "https://meetgeek.ai"
+        },
+        {
+          "id": "tactiq_pro_mensual",
+          "name": "Tactiq Pro Mensual",
+          "monthly_price": 8.0,
+          "annual_price": null,
+          "url": "https://tactiq.io"
+        },
+        {
+          "id": "tactiq_pro_anual",
+          "name": "Tactiq Pro Anual",
+          "monthly_price": 8.0,
+          "annual_price": 80.0,
+          "url": "https://tactiq.io"
+        },
+        {
+          "id": "grain_business_mensual",
+          "name": "Grain Business Mensual",
+          "monthly_price": 19.0,
+          "annual_price": null,
+          "url": "https://grain.com"
+        },
+        {
+          "id": "grain_business_anual",
+          "name": "Grain Business Anual",
+          "monthly_price": 19.0,
+          "annual_price": 190.0,
+          "url": "https://grain.com"
+        },
+        {
+          "id": "superhuman_growth_mensual",
+          "name": "Superhuman Growth Mensual",
+          "monthly_price": 30.0,
+          "annual_price": null,
+          "url": "https://superhuman.com"
+        },
+        {
+          "id": "superhuman_growth_anual",
+          "name": "Superhuman Growth Anual",
+          "monthly_price": 30.0,
+          "annual_price": 360.0,
+          "url": "https://superhuman.com"
+        },
+        {
+          "id": "spark_premium_mensual",
+          "name": "Spark Premium Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://sparkmailapp.com"
+        },
+        {
+          "id": "spark_premium_anual",
+          "name": "Spark Premium Anual",
+          "monthly_price": 7.99,
+          "annual_price": 59.99,
+          "url": "https://sparkmailapp.com"
+        },
+        {
+          "id": "sanebox_snack_mensual",
+          "name": "SaneBox Snack Mensual",
+          "monthly_price": 7.0,
+          "annual_price": null,
+          "url": "https://www.sanebox.com"
+        },
+        {
+          "id": "sanebox_snack_anual",
+          "name": "SaneBox Snack Anual",
+          "monthly_price": 7.0,
+          "annual_price": 59.0,
+          "url": "https://www.sanebox.com"
+        },
+        {
+          "id": "mailbutler_professional_mensual",
+          "name": "Mailbutler Professional Mensual",
+          "monthly_price": 14.95,
+          "annual_price": null,
+          "url": "https://www.mailbutler.io"
+        },
+        {
+          "id": "mailbutler_professional_anual",
+          "name": "Mailbutler Professional Anual",
+          "monthly_price": 14.95,
+          "annual_price": 149.4,
+          "url": "https://www.mailbutler.io"
+        },
+        {
+          "id": "ilovepdf_premium_mensual",
+          "name": "iLovePDF Premium Mensual",
+          "monthly_price": 6.0,
+          "annual_price": null,
+          "url": "https://www.ilovepdf.com"
+        },
+        {
+          "id": "ilovepdf_premium_anual",
+          "name": "iLovePDF Premium Anual",
+          "monthly_price": 6.0,
+          "annual_price": 48.0,
+          "url": "https://www.ilovepdf.com"
+        },
+        {
+          "id": "smallpdf_pro_mensual",
+          "name": "Smallpdf Pro Mensual",
+          "monthly_price": 14.0,
+          "annual_price": null,
+          "url": "https://smallpdf.com"
+        },
+        {
+          "id": "smallpdf_pro_anual",
+          "name": "Smallpdf Pro Anual",
+          "monthly_price": 14.0,
+          "annual_price": 108.0,
+          "url": "https://smallpdf.com"
+        }
+      ]
+    },
+    "otros": {
+      "name": "Otros",
+      "icon": "📦",
+      "platforms": [
+        {
+          "id": "cabify_premium",
+          "name": "Cabify Premium",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://cabify.com"
+        },
+        {
+          "id": "uber_pass",
+          "name": "Uber Pass",
+          "monthly_price": 5.99,
+          "annual_price": null,
+          "url": "https://www.uber.com"
+        },
+        {
+          "id": "bicing",
+          "name": "Bicing Barcelona",
+          "monthly_price": null,
+          "annual_price": 50.0,
+          "url": "https://www.bicing.barcelona"
+        },
+        {
+          "id": "bicimad",
+          "name": "BiciMAD Madrid",
+          "monthly_price": null,
+          "annual_price": 25.0,
+          "url": "https://www.bicimad.com"
+        },
+        {
+          "id": "valenbisi",
+          "name": "Valenbisi Valencia",
+          "monthly_price": null,
+          "annual_price": 29.21,
+          "url": "https://www.valenbisi.es"
+        },
+        {
+          "id": "sevici",
+          "name": "Sevici Sevilla",
+          "monthly_price": null,
+          "annual_price": 33.33,
+          "url": "https://www.sevici.es"
+        },
+        {
+          "id": "glovo_prime_mensual",
+          "name": "Glovo Prime Mensual",
+          "monthly_price": 5.99,
+          "annual_price": null,
+          "url": "https://glovoapp.com"
+        },
+        {
+          "id": "glovo_prime_anual",
+          "name": "Glovo Prime Anual",
+          "monthly_price": 5.99,
+          "annual_price": 59.88,
+          "url": "https://glovoapp.com"
+        },
+        {
+          "id": "uber_eats_pass",
+          "name": "Uber Eats Pass",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.ubereats.com"
+        },
+        {
+          "id": "just_eat_plus",
+          "name": "Just Eat Plus",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.just-eat.es"
+        },
+        {
+          "id": "deliveroo_plus_mensual",
+          "name": "Deliveroo Plus Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.deliveroo.es"
+        },
+        {
+          "id": "deliveroo_plus_anual",
+          "name": "Deliveroo Plus Anual",
+          "monthly_price": 7.99,
+          "annual_price": 71.88,
+          "url": "https://www.deliveroo.es"
+        },
+        {
+          "id": "too_good_to_go_mensual",
+          "name": "Too Good To Go+ Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.toogoodtogo.com"
+        },
+        {
+          "id": "too_good_to_go_anual",
+          "name": "Too Good To Go+ Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.toogoodtogo.com"
+        },
+        {
+          "id": "share_now",
+          "name": "Share Now",
+          "monthly_price": 9.0,
+          "annual_price": null,
+          "url": "https://www.share-now.com"
+        },
+        {
+          "id": "zity",
+          "name": "Zity Pass",
+          "monthly_price": 9.9,
+          "annual_price": null,
+          "url": "https://www.zity.eco"
+        },
+        {
+          "id": "wible",
+          "name": "Wible",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://wible.es"
+        },
+        {
+          "id": "emov",
+          "name": "eMov",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://www.emov.eco"
+        },
+        {
+          "id": "lime",
+          "name": "Lime Pass",
+          "monthly_price": 5.99,
+          "annual_price": null,
+          "url": "https://www.li.me"
+        },
+        {
+          "id": "voi",
+          "name": "Voi Pass",
+          "monthly_price": 34.99,
+          "annual_price": null,
+          "url": "https://www.voi.com"
+        },
+        {
+          "id": "tier",
+          "name": "TIER Pass",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://www.tier.app"
+        },
+        {
+          "id": "bolt",
+          "name": "Bolt Pass",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://bolt.eu"
+        },
+        {
+          "id": "adobe_photography_mensual",
+          "name": "Adobe Photography Mensual",
+          "monthly_price": 12.09,
+          "annual_price": null,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_photography_anual",
+          "name": "Adobe Photography Anual",
+          "monthly_price": 12.09,
+          "annual_price": 145.08,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_single_app_mensual",
+          "name": "Adobe Single App Mensual",
+          "monthly_price": 26.43,
+          "annual_price": null,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_single_app_anual",
+          "name": "Adobe Single App Anual",
+          "monthly_price": 26.43,
+          "annual_price": 317.16,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_all_apps_mensual",
+          "name": "Adobe Creative Cloud All Apps Mensual",
+          "monthly_price": 67.57,
+          "annual_price": null,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_all_apps_anual",
+          "name": "Adobe Creative Cloud All Apps Anual",
+          "monthly_price": 67.57,
+          "annual_price": 810.84,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_all_apps_estudiantes_mensual",
+          "name": "Adobe All Apps Estudiantes Mensual",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "adobe_all_apps_estudiantes_anual",
+          "name": "Adobe All Apps Estudiantes Anual",
+          "monthly_price": 19.99,
+          "annual_price": 239.88,
+          "url": "https://www.adobe.com"
+        },
+        {
+          "id": "canva_pro_mensual",
+          "name": "Canva Pro Mensual",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://www.canva.com"
+        },
+        {
+          "id": "canva_pro_anual",
+          "name": "Canva Pro Anual",
+          "monthly_price": 11.99,
+          "annual_price": 109.99,
+          "url": "https://www.canva.com"
+        },
+        {
+          "id": "canva_teams_mensual",
+          "name": "Canva Teams Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.canva.com"
+        },
+        {
+          "id": "canva_teams_anual",
+          "name": "Canva Teams Anual",
+          "monthly_price": 14.99,
+          "annual_price": 139.9,
+          "url": "https://www.canva.com"
+        },
+        {
+          "id": "grammarly_premium_mensual",
+          "name": "Grammarly Premium Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://www.grammarly.com"
+        },
+        {
+          "id": "grammarly_premium_anual",
+          "name": "Grammarly Premium Anual",
+          "monthly_price": 12.0,
+          "annual_price": 144.0,
+          "url": "https://www.grammarly.com"
+        },
+        {
+          "id": "grammarly_business_mensual",
+          "name": "Grammarly Business Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://www.grammarly.com"
+        },
+        {
+          "id": "grammarly_business_anual",
+          "name": "Grammarly Business Anual",
+          "monthly_price": 15.0,
+          "annual_price": 180.0,
+          "url": "https://www.grammarly.com"
+        },
+        {
+          "id": "figma_professional_mensual",
+          "name": "Figma Professional Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://www.figma.com"
+        },
+        {
+          "id": "figma_professional_anual",
+          "name": "Figma Professional Anual",
+          "monthly_price": 12.0,
+          "annual_price": 144.0,
+          "url": "https://www.figma.com"
+        },
+        {
+          "id": "figma_organization_mensual",
+          "name": "Figma Organization Mensual",
+          "monthly_price": 45.0,
+          "annual_price": null,
+          "url": "https://www.figma.com"
+        },
+        {
+          "id": "figma_organization_anual",
+          "name": "Figma Organization Anual",
+          "monthly_price": 45.0,
+          "annual_price": 540.0,
+          "url": "https://www.figma.com"
+        },
+        {
+          "id": "sketch_standard_mensual",
+          "name": "Sketch Standard Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.sketch.com"
+        },
+        {
+          "id": "sketch_standard_anual",
+          "name": "Sketch Standard Anual",
+          "monthly_price": 10.0,
+          "annual_price": 120.0,
+          "url": "https://www.sketch.com"
+        },
+        {
+          "id": "sketch_business_mensual",
+          "name": "Sketch Business Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://www.sketch.com"
+        },
+        {
+          "id": "sketch_business_anual",
+          "name": "Sketch Business Anual",
+          "monthly_price": 20.0,
+          "annual_price": 240.0,
+          "url": "https://www.sketch.com"
+        },
+        {
+          "id": "hootsuite_professional_mensual",
+          "name": "Hootsuite Professional Mensual",
+          "monthly_price": 49.0,
+          "annual_price": null,
+          "url": "https://www.hootsuite.com"
+        },
+        {
+          "id": "hootsuite_professional_anual",
+          "name": "Hootsuite Professional Anual",
+          "monthly_price": 49.0,
+          "annual_price": 588.0,
+          "url": "https://www.hootsuite.com"
+        },
+        {
+          "id": "hootsuite_team_mensual",
+          "name": "Hootsuite Team Mensual",
+          "monthly_price": 99.0,
+          "annual_price": null,
+          "url": "https://www.hootsuite.com"
+        },
+        {
+          "id": "hootsuite_team_anual",
+          "name": "Hootsuite Team Anual",
+          "monthly_price": 99.0,
+          "annual_price": 1188.0,
+          "url": "https://www.hootsuite.com"
+        },
+        {
+          "id": "buffer_essentials_mensual",
+          "name": "Buffer Essentials Mensual",
+          "monthly_price": 6.0,
+          "annual_price": null,
+          "url": "https://buffer.com"
+        },
+        {
+          "id": "buffer_essentials_anual",
+          "name": "Buffer Essentials Anual",
+          "monthly_price": 6.0,
+          "annual_price": 60.0,
+          "url": "https://buffer.com"
+        },
+        {
+          "id": "buffer_team_mensual",
+          "name": "Buffer Team Mensual",
+          "monthly_price": 12.0,
+          "annual_price": null,
+          "url": "https://buffer.com"
+        },
+        {
+          "id": "buffer_team_anual",
+          "name": "Buffer Team Anual",
+          "monthly_price": 12.0,
+          "annual_price": 120.0,
+          "url": "https://buffer.com"
+        },
+        {
+          "id": "mailchimp_essentials_mensual",
+          "name": "Mailchimp Essentials Mensual",
+          "monthly_price": 13.0,
+          "annual_price": null,
+          "url": "https://mailchimp.com"
+        },
+        {
+          "id": "mailchimp_essentials_anual",
+          "name": "Mailchimp Essentials Anual",
+          "monthly_price": 13.0,
+          "annual_price": 130.0,
+          "url": "https://mailchimp.com"
+        },
+        {
+          "id": "mailchimp_standard_mensual",
+          "name": "Mailchimp Standard Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://mailchimp.com"
+        },
+        {
+          "id": "mailchimp_standard_anual",
+          "name": "Mailchimp Standard Anual",
+          "monthly_price": 20.0,
+          "annual_price": 200.0,
+          "url": "https://mailchimp.com"
+        },
+        {
+          "id": "mailchimp_premium_mensual",
+          "name": "Mailchimp Premium Mensual",
+          "monthly_price": 350.0,
+          "annual_price": null,
+          "url": "https://mailchimp.com"
+        },
+        {
+          "id": "mailchimp_premium_anual",
+          "name": "Mailchimp Premium Anual",
+          "monthly_price": 350.0,
+          "annual_price": 3500.0,
+          "url": "https://mailchimp.com"
+        },
+        {
+          "id": "epidemic_sound_personal_mensual",
+          "name": "Epidemic Sound Personal Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://www.epidemicsound.com"
+        },
+        {
+          "id": "epidemic_sound_personal_anual",
+          "name": "Epidemic Sound Personal Anual",
+          "monthly_price": 15.0,
+          "annual_price": 144.0,
+          "url": "https://www.epidemicsound.com"
+        },
+        {
+          "id": "epidemic_sound_commercial_mensual",
+          "name": "Epidemic Sound Commercial Mensual",
+          "monthly_price": 49.0,
+          "annual_price": null,
+          "url": "https://www.epidemicsound.com"
+        },
+        {
+          "id": "epidemic_sound_commercial_anual",
+          "name": "Epidemic Sound Commercial Anual",
+          "monthly_price": 49.0,
+          "annual_price": 499.0,
+          "url": "https://www.epidemicsound.com"
+        },
+        {
+          "id": "artlist_creator_mensual",
+          "name": "Artlist Creator Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://artlist.io"
+        },
+        {
+          "id": "artlist_creator_anual",
+          "name": "Artlist Creator Anual",
+          "monthly_price": 14.99,
+          "annual_price": 119.88,
+          "url": "https://artlist.io"
+        },
+        {
+          "id": "artlist_creator_pro_mensual",
+          "name": "Artlist Creator Pro Mensual",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://artlist.io"
+        },
+        {
+          "id": "artlist_creator_pro_anual",
+          "name": "Artlist Creator Pro Anual",
+          "monthly_price": 29.99,
+          "annual_price": 239.88,
+          "url": "https://artlist.io"
+        },
+        {
+          "id": "artlist_teams_mensual",
+          "name": "Artlist Teams Mensual",
+          "monthly_price": 49.99,
+          "annual_price": null,
+          "url": "https://artlist.io"
+        },
+        {
+          "id": "artlist_teams_anual",
+          "name": "Artlist Teams Anual",
+          "monthly_price": 49.99,
+          "annual_price": 479.88,
+          "url": "https://artlist.io"
+        },
+        {
+          "id": "soundstripe_creator_mensual",
+          "name": "Soundstripe Creator Mensual",
+          "monthly_price": 16.25,
+          "annual_price": null,
+          "url": "https://www.soundstripe.com"
+        },
+        {
+          "id": "soundstripe_creator_anual",
+          "name": "Soundstripe Creator Anual",
+          "monthly_price": 16.25,
+          "annual_price": 135.0,
+          "url": "https://www.soundstripe.com"
+        },
+        {
+          "id": "soundstripe_business_mensual",
+          "name": "Soundstripe Business Mensual",
+          "monthly_price": 35.0,
+          "annual_price": null,
+          "url": "https://www.soundstripe.com"
+        },
+        {
+          "id": "soundstripe_business_anual",
+          "name": "Soundstripe Business Anual",
+          "monthly_price": 35.0,
+          "annual_price": 300.0,
+          "url": "https://www.soundstripe.com"
+        },
+        {
+          "id": "musicbed_personal",
+          "name": "Musicbed Personal",
+          "monthly_price": null,
+          "annual_price": 199.0,
+          "url": "https://www.musicbed.com"
+        },
+        {
+          "id": "musicbed_professional",
+          "name": "Musicbed Professional",
+          "monthly_price": null,
+          "annual_price": 499.0,
+          "url": "https://www.musicbed.com"
+        },
+        {
+          "id": "uppbeat_free",
+          "name": "Uppbeat Free",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://uppbeat.io"
+        },
+        {
+          "id": "uppbeat_premium_mensual",
+          "name": "Uppbeat Premium Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://uppbeat.io"
+        },
+        {
+          "id": "uppbeat_premium_anual",
+          "name": "Uppbeat Premium Anual",
+          "monthly_price": 9.99,
+          "annual_price": 71.88,
+          "url": "https://uppbeat.io"
+        },
+        {
+          "id": "artgrid_creator",
+          "name": "Artgrid Creator",
+          "monthly_price": null,
+          "annual_price": 299.0,
+          "url": "https://artgrid.io"
+        },
+        {
+          "id": "artgrid_creator_pro",
+          "name": "Artgrid Creator Pro",
+          "monthly_price": null,
+          "annual_price": 599.0,
+          "url": "https://artgrid.io"
+        },
+        {
+          "id": "storyblocks_unlimited_all_access_mensual",
+          "name": "Storyblocks Unlimited All Access Mensual",
+          "monthly_price": 60.0,
+          "annual_price": null,
+          "url": "https://www.storyblocks.com"
+        },
+        {
+          "id": "storyblocks_unlimited_all_access_anual",
+          "name": "Storyblocks Unlimited All Access Anual",
+          "monthly_price": 60.0,
+          "annual_price": 299.0,
+          "url": "https://www.storyblocks.com"
+        },
+        {
+          "id": "motion_array_pro_mensual",
+          "name": "Motion Array Pro Mensual",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://motionarray.com"
+        },
+        {
+          "id": "motion_array_pro_anual",
+          "name": "Motion Array Pro Anual",
+          "monthly_price": 29.99,
+          "annual_price": 249.99,
+          "url": "https://motionarray.com"
+        },
+        {
+          "id": "motion_array_team_mensual",
+          "name": "Motion Array Team Mensual",
+          "monthly_price": 49.99,
+          "annual_price": null,
+          "url": "https://motionarray.com"
+        },
+        {
+          "id": "motion_array_team_anual",
+          "name": "Motion Array Team Anual",
+          "monthly_price": 49.99,
+          "annual_price": 499.99,
+          "url": "https://motionarray.com"
+        },
+        {
+          "id": "filmpac_monthly",
+          "name": "Filmpac Monthly",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://filmpac.com"
+        },
+        {
+          "id": "filmpac_annual",
+          "name": "Filmpac Annual",
+          "monthly_price": 29.0,
+          "annual_price": 249.0,
+          "url": "https://filmpac.com"
+        },
+        {
+          "id": "shutterstock_10_imagenes",
+          "name": "Shutterstock 10 Imágenes",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://www.shutterstock.com"
+        },
+        {
+          "id": "shutterstock_50_imagenes",
+          "name": "Shutterstock 50 Imágenes",
+          "monthly_price": 99.0,
+          "annual_price": null,
+          "url": "https://www.shutterstock.com"
+        },
+        {
+          "id": "shutterstock_350_imagenes",
+          "name": "Shutterstock 350 Imágenes",
+          "monthly_price": 169.0,
+          "annual_price": null,
+          "url": "https://www.shutterstock.com"
+        },
+        {
+          "id": "shutterstock_750_imagenes",
+          "name": "Shutterstock 750 Imágenes",
+          "monthly_price": 199.0,
+          "annual_price": null,
+          "url": "https://www.shutterstock.com"
+        },
+        {
+          "id": "adobe_stock_10_imagenes",
+          "name": "Adobe Stock 10 Imágenes",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://stock.adobe.com"
+        },
+        {
+          "id": "adobe_stock_40_imagenes",
+          "name": "Adobe Stock 40 Imágenes",
+          "monthly_price": 99.99,
+          "annual_price": null,
+          "url": "https://stock.adobe.com"
+        },
+        {
+          "id": "adobe_stock_750_imagenes",
+          "name": "Adobe Stock 750 Imágenes",
+          "monthly_price": 199.99,
+          "annual_price": null,
+          "url": "https://stock.adobe.com"
+        },
+        {
+          "id": "istock_essential_mensual",
+          "name": "iStock Essential Mensual",
+          "monthly_price": 25.0,
+          "annual_price": null,
+          "url": "https://www.istockphoto.com"
+        },
+        {
+          "id": "istock_essential_anual",
+          "name": "iStock Essential Anual",
+          "monthly_price": 25.0,
+          "annual_price": 240.0,
+          "url": "https://www.istockphoto.com"
+        },
+        {
+          "id": "istock_signature_mensual",
+          "name": "iStock Signature Mensual",
+          "monthly_price": 50.0,
+          "annual_price": null,
+          "url": "https://www.istockphoto.com"
+        },
+        {
+          "id": "istock_signature_anual",
+          "name": "iStock Signature Anual",
+          "monthly_price": 50.0,
+          "annual_price": 480.0,
+          "url": "https://www.istockphoto.com"
+        },
+        {
+          "id": "unsplashplus",
+          "name": "Unsplash+",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://unsplash.com"
+        },
+        {
+          "id": "pexels",
+          "name": "Pexels",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://www.pexels.com"
+        },
+        {
+          "id": "envato_elements_mensual",
+          "name": "Envato Elements Mensual",
+          "monthly_price": 33.0,
+          "annual_price": null,
+          "url": "https://elements.envato.com"
+        },
+        {
+          "id": "envato_elements_anual",
+          "name": "Envato Elements Anual",
+          "monthly_price": 33.0,
+          "annual_price": 198.0,
+          "url": "https://elements.envato.com"
+        },
+        {
+          "id": "creative_fabrica_mensual",
+          "name": "Creative Fabrica Mensual",
+          "monthly_price": 9.0,
+          "annual_price": null,
+          "url": "https://www.creativefabrica.com"
+        },
+        {
+          "id": "creative_fabrica_anual",
+          "name": "Creative Fabrica Anual",
+          "monthly_price": 9.0,
+          "annual_price": 39.0,
+          "url": "https://www.creativefabrica.com"
+        },
+        {
+          "id": "placeit_unlimited",
+          "name": "Placeit Unlimited",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://placeit.net"
+        }
+      ]
+    },
+    "entretenimiento": {
+      "name": "Entretenimiento",
+      "icon": "🎬",
+      "platforms": [
+        {
+          "id": "movistar_plusplus_esencial",
+          "name": "Movistar Plus+ Esencial",
+          "monthly_price": 8.0,
+          "annual_price": null,
+          "url": "https://www.movistarplus.es"
+        },
+        {
+          "id": "movistar_plusplus_ficcion",
+          "name": "Movistar Plus+ Ficción",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.movistarplus.es"
+        },
+        {
+          "id": "movistar_plusplus_total",
+          "name": "Movistar Plus+ Total",
+          "monthly_price": 14.0,
+          "annual_price": null,
+          "url": "https://www.movistarplus.es"
+        },
+        {
+          "id": "dazn_baloncesto_mensual",
+          "name": "DAZN Baloncesto Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_baloncesto_anual",
+          "name": "DAZN Baloncesto Anual",
+          "monthly_price": 14.99,
+          "annual_price": 109.99,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_futbol_mensual",
+          "name": "DAZN Fútbol Mensual",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_futbol_anual",
+          "name": "DAZN Fútbol Anual",
+          "monthly_price": 29.99,
+          "annual_price": 219.99,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_motor_mensual",
+          "name": "DAZN Motor Mensual",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_motor_anual",
+          "name": "DAZN Motor Anual",
+          "monthly_price": 29.99,
+          "annual_price": 219.99,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_premium_mensual",
+          "name": "DAZN Premium Mensual",
+          "monthly_price": 44.99,
+          "annual_price": null,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_premium_anual",
+          "name": "DAZN Premium Anual",
+          "monthly_price": 44.99,
+          "annual_price": 351.99,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_made_in_usa_mensual",
+          "name": "DAZN Made in USA Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "dazn_made_in_usa_anual",
+          "name": "DAZN Made in USA Anual",
+          "monthly_price": 7.99,
+          "annual_price": 54.99,
+          "url": "https://www.dazn.com"
+        },
+        {
+          "id": "filmin_mensual",
+          "name": "Filmin Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.filmin.es"
+        },
+        {
+          "id": "filmin_anual",
+          "name": "Filmin Anual",
+          "monthly_price": 7.99,
+          "annual_price": 84.0,
+          "url": "https://www.filmin.es"
+        },
+        {
+          "id": "filmin_plus_mensual",
+          "name": "Filmin Plus Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.filmin.es"
+        },
+        {
+          "id": "filmin_plus_anual",
+          "name": "Filmin Plus Anual",
+          "monthly_price": 14.99,
+          "annual_price": 144.0,
+          "url": "https://www.filmin.es"
+        },
+        {
+          "id": "skyshowtime_con_anuncios_mensual",
+          "name": "SkyShowtime Con anuncios Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.skyshowtime.com"
+        },
+        {
+          "id": "skyshowtime_con_anuncios_anual",
+          "name": "SkyShowtime Con anuncios Anual",
+          "monthly_price": 4.99,
+          "annual_price": 39.99,
+          "url": "https://www.skyshowtime.com"
+        },
+        {
+          "id": "skyshowtime_estandar_mensual",
+          "name": "SkyShowtime Estándar Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.skyshowtime.com"
+        },
+        {
+          "id": "skyshowtime_estandar_anual",
+          "name": "SkyShowtime Estándar Anual",
+          "monthly_price": 7.99,
+          "annual_price": 62.99,
+          "url": "https://www.skyshowtime.com"
+        },
+        {
+          "id": "skyshowtime_premium_mensual",
+          "name": "SkyShowtime Prémium Mensual",
+          "monthly_price": 12.99,
+          "annual_price": null,
+          "url": "https://www.skyshowtime.com"
+        },
+        {
+          "id": "skyshowtime_premium_anual",
+          "name": "SkyShowtime Prémium Anual",
+          "monthly_price": 12.99,
+          "annual_price": 102.99,
+          "url": "https://www.skyshowtime.com"
+        },
+        {
+          "id": "atresplayer_premium_mensual",
+          "name": "Atresplayer Premium Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.atresplayer.com"
+        },
+        {
+          "id": "atresplayer_premium_anual",
+          "name": "Atresplayer Premium Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.atresplayer.com"
+        },
+        {
+          "id": "mitele_plus_mensual",
+          "name": "Mitele Plus Mensual",
+          "monthly_price": 4.0,
+          "annual_price": null,
+          "url": "https://www.mitele.es"
+        },
+        {
+          "id": "mitele_plus_anual",
+          "name": "Mitele Plus Anual",
+          "monthly_price": 4.0,
+          "annual_price": 40.0,
+          "url": "https://www.mitele.es"
+        },
+        {
+          "id": "flixole_mensual",
+          "name": "FlixOlé Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.flixole.com"
+        },
+        {
+          "id": "flixole_anual",
+          "name": "FlixOlé Anual",
+          "monthly_price": 4.99,
+          "annual_price": 36.0,
+          "url": "https://www.flixole.com"
+        },
+        {
+          "id": "rtve_playplus_mensual",
+          "name": "RTVE Play+ Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.rtve.es"
+        },
+        {
+          "id": "rtve_playplus_anual",
+          "name": "RTVE Play+ Anual",
+          "monthly_price": 4.99,
+          "annual_price": 59.88,
+          "url": "https://www.rtve.es"
+        },
+        {
+          "id": "netflix_estandar",
+          "name": "Netflix Estándar",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://www.netflix.com"
+        },
+        {
+          "id": "netflix_premium",
+          "name": "Netflix Premium",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://www.netflix.com"
+        },
+        {
+          "id": "hbo_max_basico_con_anuncios_mensual",
+          "name": "Hbo Max Básico con anuncios Mensual",
+          "monthly_price": 6.99,
+          "annual_price": null,
+          "url": "https://www.max.com"
+        },
+        {
+          "id": "hbo_max_estandar_mensual",
+          "name": "Hbo Max Estándar Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://www.max.com"
+        },
+        {
+          "id": "hbo_max_premium_mensual",
+          "name": "Hbo Max Prémium Mensual",
+          "monthly_price": 15.99,
+          "annual_price": null,
+          "url": "https://www.max.com"
+        },
+        {
+          "id": "disneyplus_estandar_con_anuncios_mensual",
+          "name": "Disney+ Estándar con anuncios Mensual",
+          "monthly_price": 6.99,
+          "annual_price": null,
+          "url": "https://www.disneyplus.com"
+        },
+        {
+          "id": "disneyplus_estandar_mensual",
+          "name": "Disney+ Estándar Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://www.disneyplus.com"
+        },
+        {
+          "id": "disneyplus_estandar_anual",
+          "name": "Disney+ Estándar Anual",
+          "monthly_price": 9.16,
+          "annual_price": 109.9,
+          "url": "https://www.disneyplus.com"
+        },
+        {
+          "id": "disneyplus_premium_mensual",
+          "name": "Disney+ Prémium Mensual",
+          "monthly_price": 15.99,
+          "annual_price": null,
+          "url": "https://www.disneyplus.com"
+        },
+        {
+          "id": "disneyplus_premium_anual",
+          "name": "Disney+ Prémium Anual",
+          "monthly_price": 13.33,
+          "annual_price": 159.9,
+          "url": "https://www.disneyplus.com"
+        },
+        {
+          "id": "prime_video_mensual",
+          "name": "Prime Video Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.primevideo.com"
+        },
+        {
+          "id": "prime_video_anual",
+          "name": "Prime Video Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.9,
+          "url": "https://www.primevideo.com"
+        },
+        {
+          "id": "apple_tvplus_mensual",
+          "name": "Apple TV+ Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "apple_tvplus_anual",
+          "name": "Apple TV+ Anual",
+          "monthly_price": 8.25,
+          "annual_price": 99.0,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "youtube_premium_individual_mensual",
+          "name": "YouTube Premium Individual Mensual",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://www.youtube.com"
+        },
+        {
+          "id": "youtube_premium_individual_anual",
+          "name": "YouTube Premium Individual Anual",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://www.youtube.com"
+        },
+        {
+          "id": "youtube_premium_familiar",
+          "name": "YouTube Premium Familiar",
+          "monthly_price": 25.99,
+          "annual_price": null,
+          "url": "https://www.youtube.com"
+        },
+        {
+          "id": "youtube_premium_estudiante",
+          "name": "YouTube Premium Estudiante",
+          "monthly_price": 8.99,
+          "annual_price": null,
+          "url": "https://www.youtube.com"
+        },
+        {
+          "id": "youtube_premium_lite_mensual",
+          "name": "YouTube Premium Lite Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.youtube.com"
+        },
+        {
+          "id": "paramountplus_esencial_mensual",
+          "name": "Paramount+ Esencial Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.paramountplus.com"
+        },
+        {
+          "id": "paramountplus_esencial_anual",
+          "name": "Paramount+ Esencial Anual",
+          "monthly_price": 5.0,
+          "annual_price": 59.99,
+          "url": "https://www.paramountplus.com"
+        },
+        {
+          "id": "paramountplus_premium_mensual",
+          "name": "Paramount+ Premium Mensual",
+          "monthly_price": 12.99,
+          "annual_price": null,
+          "url": "https://www.paramountplus.com"
+        },
+        {
+          "id": "paramountplus_premium_anual",
+          "name": "Paramount+ Premium Anual",
+          "monthly_price": 9.99,
+          "annual_price": 119.99,
+          "url": "https://www.paramountplus.com"
+        },
+        {
+          "id": "hulu_basico_mensual",
+          "name": "Hulu Básico Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.hulu.com"
+        },
+        {
+          "id": "hulu_basico_anual",
+          "name": "Hulu Básico Anual",
+          "monthly_price": 8.33,
+          "annual_price": 99.99,
+          "url": "https://www.hulu.com"
+        },
+        {
+          "id": "hulu_sin_anuncios",
+          "name": "Hulu Sin Anuncios",
+          "monthly_price": 18.99,
+          "annual_price": null,
+          "url": "https://www.hulu.com"
+        },
+        {
+          "id": "peacock_premium_mensual",
+          "name": "Peacock Premium Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://www.peacocktv.com"
+        },
+        {
+          "id": "peacock_premium_anual",
+          "name": "Peacock Premium Anual",
+          "monthly_price": 10.99,
+          "annual_price": 109.99,
+          "url": "https://www.peacocktv.com"
+        },
+        {
+          "id": "peacock_premium_plus_mensual",
+          "name": "Peacock Premium Plus Mensual",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://www.peacocktv.com"
+        },
+        {
+          "id": "peacock_premium_plus_anual",
+          "name": "Peacock Premium Plus Anual",
+          "monthly_price": 16.99,
+          "annual_price": 169.99,
+          "url": "https://www.peacocktv.com"
+        },
+        {
+          "id": "crunchyroll_fan_mensual",
+          "name": "Crunchyroll Fan Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.crunchyroll.com"
+        },
+        {
+          "id": "crunchyroll_fan_anual",
+          "name": "Crunchyroll Fan Anual",
+          "monthly_price": 7.99,
+          "annual_price": 79.99,
+          "url": "https://www.crunchyroll.com"
+        },
+        {
+          "id": "crunchyroll_mega_fan_mensual",
+          "name": "Crunchyroll Mega Fan Mensual",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://www.crunchyroll.com"
+        },
+        {
+          "id": "crunchyroll_mega_fan_anual",
+          "name": "Crunchyroll Mega Fan Anual",
+          "monthly_price": 11.99,
+          "annual_price": 99.99,
+          "url": "https://www.crunchyroll.com"
+        },
+        {
+          "id": "crunchyroll_ultimate_fan_mensual",
+          "name": "Crunchyroll Ultimate Fan Mensual",
+          "monthly_price": 15.99,
+          "annual_price": null,
+          "url": "https://www.crunchyroll.com"
+        },
+        {
+          "id": "crunchyroll_ultimate_fan_anual",
+          "name": "Crunchyroll Ultimate Fan Anual",
+          "monthly_price": 15.99,
+          "annual_price": 149.99,
+          "url": "https://www.crunchyroll.com"
+        },
+        {
+          "id": "twitch_turbo",
+          "name": "Twitch Turbo",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://www.twitch.tv"
+        }
+      ]
+    },
+    "salud_fitness": {
+      "name": "Salud y Fitness",
+      "icon": "💪",
+      "platforms": [
+        {
+          "id": "basic-fit_mensual",
+          "name": "Basic-Fit Mensual",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://www.basic-fit.com"
+        },
+        {
+          "id": "basic-fit_anual",
+          "name": "Basic-Fit Anual",
+          "monthly_price": 19.99,
+          "annual_price": 239.88,
+          "url": "https://www.basic-fit.com"
+        },
+        {
+          "id": "mcfit_mensual",
+          "name": "McFIT Mensual",
+          "monthly_price": 24.9,
+          "annual_price": null,
+          "url": "https://www.mcfit.com"
+        },
+        {
+          "id": "mcfit_anual",
+          "name": "McFIT Anual",
+          "monthly_price": 24.9,
+          "annual_price": 298.8,
+          "url": "https://www.mcfit.com"
+        },
+        {
+          "id": "altafit_mensual",
+          "name": "Altafit Mensual",
+          "monthly_price": 24.9,
+          "annual_price": null,
+          "url": "https://www.altafit.es"
+        },
+        {
+          "id": "altafit_anual",
+          "name": "Altafit Anual",
+          "monthly_price": 24.9,
+          "annual_price": 298.8,
+          "url": "https://www.altafit.es"
+        },
+        {
+          "id": "anytime_fitness_mensual",
+          "name": "Anytime Fitness Mensual",
+          "monthly_price": 39.9,
+          "annual_price": null,
+          "url": "https://www.anytimefitness.es"
+        },
+        {
+          "id": "anytime_fitness_anual",
+          "name": "Anytime Fitness Anual",
+          "monthly_price": 39.9,
+          "annual_price": 478.8,
+          "url": "https://www.anytimefitness.es"
+        },
+        {
+          "id": "vivagym_mensual",
+          "name": "VivaGym Mensual",
+          "monthly_price": 25.0,
+          "annual_price": null,
+          "url": "https://vivagym.es"
+        },
+        {
+          "id": "vivagym_anual",
+          "name": "VivaGym Anual",
+          "monthly_price": 25.0,
+          "annual_price": 300.0,
+          "url": "https://vivagym.es"
+        },
+        {
+          "id": "fitness_park_mensual",
+          "name": "Fitness Park Mensual",
+          "monthly_price": 29.95,
+          "annual_price": null,
+          "url": "https://www.fitnesspark.es"
+        },
+        {
+          "id": "fitness_park_anual",
+          "name": "Fitness Park Anual",
+          "monthly_price": 29.95,
+          "annual_price": 359.4,
+          "url": "https://www.fitnesspark.es"
+        },
+        {
+          "id": "metropolitan_mensual",
+          "name": "Metropolitan Mensual",
+          "monthly_price": 75.0,
+          "annual_price": null,
+          "url": "https://clubmetropolitan.com"
+        },
+        {
+          "id": "metropolitan_anual",
+          "name": "Metropolitan Anual",
+          "monthly_price": 75.0,
+          "annual_price": 900.0,
+          "url": "https://clubmetropolitan.com"
+        },
+        {
+          "id": "david_lloyd_mensual",
+          "name": "David Lloyd Mensual",
+          "monthly_price": 120.0,
+          "annual_price": null,
+          "url": "https://www.davidlloyd.es"
+        },
+        {
+          "id": "david_lloyd_anual",
+          "name": "David Lloyd Anual",
+          "monthly_price": 120.0,
+          "annual_price": 1440.0,
+          "url": "https://www.davidlloyd.es"
+        },
+        {
+          "id": "dir_mensual",
+          "name": "DiR Mensual",
+          "monthly_price": 65.0,
+          "annual_price": null,
+          "url": "https://www.dir.cat"
+        },
+        {
+          "id": "dir_anual",
+          "name": "DiR Anual",
+          "monthly_price": 65.0,
+          "annual_price": 780.0,
+          "url": "https://www.dir.cat"
+        },
+        {
+          "id": "holmes_place_mensual",
+          "name": "Holmes Place Mensual",
+          "monthly_price": 89.0,
+          "annual_price": null,
+          "url": "https://www.holmesplace.com"
+        },
+        {
+          "id": "holmes_place_anual",
+          "name": "Holmes Place Anual",
+          "monthly_price": 89.0,
+          "annual_price": 1068.0,
+          "url": "https://www.holmesplace.com"
+        },
+        {
+          "id": "sanitas_digital_mensual",
+          "name": "Sanitas Digital Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.sanitas.es"
+        },
+        {
+          "id": "sanitas_digital_anual",
+          "name": "Sanitas Digital Anual",
+          "monthly_price": 10.0,
+          "annual_price": 120.0,
+          "url": "https://www.sanitas.es"
+        },
+        {
+          "id": "mediktor_mensual",
+          "name": "Mediktor Premium Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.mediktor.com"
+        },
+        {
+          "id": "mediktor_anual",
+          "name": "Mediktor Premium Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.mediktor.com"
+        },
+        {
+          "id": "savia_mensual",
+          "name": "Savia de MAPFRE Mensual",
+          "monthly_price": 24.9,
+          "annual_price": null,
+          "url": "https://www.saviasalud.com"
+        },
+        {
+          "id": "savia_anual",
+          "name": "Savia de MAPFRE Anual",
+          "monthly_price": 24.9,
+          "annual_price": 298.8,
+          "url": "https://www.saviasalud.com"
+        },
+        {
+          "id": "strava_mensual",
+          "name": "Strava Mensual",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://www.strava.com"
+        },
+        {
+          "id": "strava_anual",
+          "name": "Strava Anual",
+          "monthly_price": 11.99,
+          "annual_price": 79.99,
+          "url": "https://www.strava.com"
+        },
+        {
+          "id": "myfitnesspal_premium_mensual",
+          "name": "MyFitnessPal Premium Mensual",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://www.myfitnesspal.com"
+        },
+        {
+          "id": "myfitnesspal_premium_anual",
+          "name": "MyFitnessPal Premium Anual",
+          "monthly_price": 19.99,
+          "annual_price": 79.99,
+          "url": "https://www.myfitnesspal.com"
+        },
+        {
+          "id": "headspace_mensual",
+          "name": "Headspace Mensual",
+          "monthly_price": 12.99,
+          "annual_price": null,
+          "url": "https://www.headspace.com"
+        },
+        {
+          "id": "headspace_anual",
+          "name": "Headspace Anual",
+          "monthly_price": 12.99,
+          "annual_price": 69.99,
+          "url": "https://www.headspace.com"
+        },
+        {
+          "id": "calm_mensual",
+          "name": "Calm Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.calm.com"
+        },
+        {
+          "id": "calm_anual",
+          "name": "Calm Anual",
+          "monthly_price": 14.99,
+          "annual_price": 69.99,
+          "url": "https://www.calm.com"
+        },
+        {
+          "id": "peloton_app_mensual",
+          "name": "Peloton App Mensual",
+          "monthly_price": 12.99,
+          "annual_price": null,
+          "url": "https://www.onepeloton.com"
+        },
+        {
+          "id": "peloton_app_anual",
+          "name": "Peloton App Anual",
+          "monthly_price": 12.99,
+          "annual_price": 155.88,
+          "url": "https://www.onepeloton.com"
+        },
+        {
+          "id": "peloton_all-access_mensual",
+          "name": "Peloton All-Access Mensual",
+          "monthly_price": 44.0,
+          "annual_price": null,
+          "url": "https://www.onepeloton.com"
+        },
+        {
+          "id": "peloton_all-access_anual",
+          "name": "Peloton All-Access Anual",
+          "monthly_price": 44.0,
+          "annual_price": 528.0,
+          "url": "https://www.onepeloton.com"
+        },
+        {
+          "id": "fitbit_premium_mensual",
+          "name": "Fitbit Premium Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.fitbit.com"
+        },
+        {
+          "id": "fitbit_premium_anual",
+          "name": "Fitbit Premium Anual",
+          "monthly_price": 9.99,
+          "annual_price": 79.99,
+          "url": "https://www.fitbit.com"
+        },
+        {
+          "id": "apple_fitnessplus_mensual",
+          "name": "Apple Fitness+ Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "apple_fitnessplus_anual",
+          "name": "Apple Fitness+ Anual",
+          "monthly_price": 6.67,
+          "annual_price": 79.99,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "nike_training_club_premium_mensual",
+          "name": "Nike Training Club Premium Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.nike.com"
+        },
+        {
+          "id": "nike_training_club_premium_anual",
+          "name": "Nike Training Club Premium Anual",
+          "monthly_price": 14.99,
+          "annual_price": 119.99,
+          "url": "https://www.nike.com"
+        }
+      ]
+    },
+    "productividad": {
+      "name": "Productividad",
+      "icon": "💼",
+      "platforms": [
+        {
+          "id": "microsoft_365_personal_mensual",
+          "name": "Microsoft 365 Personal Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_365_personal_anual",
+          "name": "Microsoft 365 Personal Anual",
+          "monthly_price": 9.99,
+          "annual_price": 99.99,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_365_familiar_mensual",
+          "name": "Microsoft 365 Familiar Mensual",
+          "monthly_price": 12.99,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_365_familiar_anual",
+          "name": "Microsoft 365 Familiar Anual",
+          "monthly_price": 12.99,
+          "annual_price": 129.99,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_365_business_basic_mensual",
+          "name": "Microsoft 365 Business Basic Mensual",
+          "monthly_price": 5.6,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_365_business_basic_anual",
+          "name": "Microsoft 365 Business Basic Anual",
+          "monthly_price": 5.6,
+          "annual_price": 67.2,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_365_business_standard_mensual",
+          "name": "Microsoft 365 Business Standard Mensual",
+          "monthly_price": 11.7,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_365_business_standard_anual",
+          "name": "Microsoft 365 Business Standard Anual",
+          "monthly_price": 11.7,
+          "annual_price": 140.4,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "google_workspace_starter_mensual",
+          "name": "Google Workspace Starter Mensual",
+          "monthly_price": 5.75,
+          "annual_price": null,
+          "url": "https://workspace.google.com"
+        },
+        {
+          "id": "google_workspace_starter_anual",
+          "name": "Google Workspace Starter Anual",
+          "monthly_price": 5.75,
+          "annual_price": 69.0,
+          "url": "https://workspace.google.com"
+        },
+        {
+          "id": "google_workspace_standard_mensual",
+          "name": "Google Workspace Standard Mensual",
+          "monthly_price": 11.5,
+          "annual_price": null,
+          "url": "https://workspace.google.com"
+        },
+        {
+          "id": "google_workspace_standard_anual",
+          "name": "Google Workspace Standard Anual",
+          "monthly_price": 11.5,
+          "annual_price": 138.0,
+          "url": "https://workspace.google.com"
+        },
+        {
+          "id": "google_workspace_plus_mensual",
+          "name": "Google Workspace Plus Mensual",
+          "monthly_price": 17.25,
+          "annual_price": null,
+          "url": "https://workspace.google.com"
+        },
+        {
+          "id": "google_workspace_plus_anual",
+          "name": "Google Workspace Plus Anual",
+          "monthly_price": 17.25,
+          "annual_price": 207.0,
+          "url": "https://workspace.google.com"
+        },
+        {
+          "id": "notion_plus_mensual",
+          "name": "Notion Plus Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://www.notion.so"
+        },
+        {
+          "id": "notion_plus_anual",
+          "name": "Notion Plus Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://www.notion.so"
+        },
+        {
+          "id": "notion_business_mensual",
+          "name": "Notion Business Mensual",
+          "monthly_price": 18.0,
+          "annual_price": null,
+          "url": "https://www.notion.so"
+        },
+        {
+          "id": "notion_business_anual",
+          "name": "Notion Business Anual",
+          "monthly_price": 18.0,
+          "annual_price": 180.0,
+          "url": "https://www.notion.so"
+        },
+        {
+          "id": "evernote_personal_mensual",
+          "name": "Evernote Personal Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://evernote.com"
+        },
+        {
+          "id": "evernote_personal_anual",
+          "name": "Evernote Personal Anual",
+          "monthly_price": 14.99,
+          "annual_price": 129.99,
+          "url": "https://evernote.com"
+        },
+        {
+          "id": "evernote_professional_mensual",
+          "name": "Evernote Professional Mensual",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://evernote.com"
+        },
+        {
+          "id": "evernote_professional_anual",
+          "name": "Evernote Professional Anual",
+          "monthly_price": 19.99,
+          "annual_price": 169.99,
+          "url": "https://evernote.com"
+        },
+        {
+          "id": "todoist_pro_mensual",
+          "name": "Todoist Pro Mensual",
+          "monthly_price": 5.0,
+          "annual_price": null,
+          "url": "https://todoist.com"
+        },
+        {
+          "id": "todoist_pro_anual",
+          "name": "Todoist Pro Anual",
+          "monthly_price": 5.0,
+          "annual_price": 48.0,
+          "url": "https://todoist.com"
+        },
+        {
+          "id": "todoist_business_mensual",
+          "name": "Todoist Business Mensual",
+          "monthly_price": 8.0,
+          "annual_price": null,
+          "url": "https://todoist.com"
+        },
+        {
+          "id": "todoist_business_anual",
+          "name": "Todoist Business Anual",
+          "monthly_price": 8.0,
+          "annual_price": 72.0,
+          "url": "https://todoist.com"
+        },
+        {
+          "id": "slack_pro_mensual",
+          "name": "Slack Pro Mensual",
+          "monthly_price": 7.25,
+          "annual_price": null,
+          "url": "https://slack.com"
+        },
+        {
+          "id": "slack_pro_anual",
+          "name": "Slack Pro Anual",
+          "monthly_price": 7.25,
+          "annual_price": 73.5,
+          "url": "https://slack.com"
+        },
+        {
+          "id": "slack_businessplus_mensual",
+          "name": "Slack Business+ Mensual",
+          "monthly_price": 12.5,
+          "annual_price": null,
+          "url": "https://slack.com"
+        },
+        {
+          "id": "slack_businessplus_anual",
+          "name": "Slack Business+ Anual",
+          "monthly_price": 10.58,
+          "annual_price": 127.0,
+          "url": "https://slack.com"
+        },
+        {
+          "id": "asana_starter_mensual",
+          "name": "Asana Starter Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://asana.com"
+        },
+        {
+          "id": "asana_starter_anual",
+          "name": "Asana Starter Anual",
+          "monthly_price": 10.99,
+          "annual_price": 131.88,
+          "url": "https://asana.com"
+        },
+        {
+          "id": "asana_advanced_mensual",
+          "name": "Asana Advanced Mensual",
+          "monthly_price": 24.99,
+          "annual_price": null,
+          "url": "https://asana.com"
+        },
+        {
+          "id": "asana_advanced_anual",
+          "name": "Asana Advanced Anual",
+          "monthly_price": 24.99,
+          "annual_price": 299.88,
+          "url": "https://asana.com"
+        },
+        {
+          "id": "monday_basico_mensual",
+          "name": "Monday.com Básico Mensual",
+          "monthly_price": 8.0,
+          "annual_price": null,
+          "url": "https://monday.com"
+        },
+        {
+          "id": "monday_basico_anual",
+          "name": "Monday.com Básico Anual",
+          "monthly_price": 8.0,
+          "annual_price": 72.0,
+          "url": "https://monday.com"
+        },
+        {
+          "id": "monday_estandar_mensual",
+          "name": "Monday.com Estándar Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://monday.com"
+        },
+        {
+          "id": "monday_estandar_anual",
+          "name": "Monday.com Estándar Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://monday.com"
+        },
+        {
+          "id": "monday_pro_mensual",
+          "name": "Monday.com Pro Mensual",
+          "monthly_price": 16.0,
+          "annual_price": null,
+          "url": "https://monday.com"
+        },
+        {
+          "id": "monday_pro_anual",
+          "name": "Monday.com Pro Anual",
+          "monthly_price": 16.0,
+          "annual_price": 144.0,
+          "url": "https://monday.com"
+        }
+      ]
+    },
+    "seguridad": {
+      "name": "Seguridad",
+      "icon": "🔒",
+      "platforms": [
+        {
+          "id": "nordvpn_estandar_mensual",
+          "name": "NordVPN Estándar Mensual",
+          "monthly_price": 12.99,
+          "annual_price": null,
+          "url": "https://nordvpn.com"
+        },
+        {
+          "id": "nordvpn_estandar_anual",
+          "name": "NordVPN Estándar Anual",
+          "monthly_price": 12.99,
+          "annual_price": 59.88,
+          "url": "https://nordvpn.com"
+        },
+        {
+          "id": "nordvpn_plus_mensual",
+          "name": "NordVPN Plus Mensual",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://nordvpn.com"
+        },
+        {
+          "id": "nordvpn_plus_anual",
+          "name": "NordVPN Plus Anual",
+          "monthly_price": 13.99,
+          "annual_price": 71.88,
+          "url": "https://nordvpn.com"
+        },
+        {
+          "id": "nordvpn_complete_mensual",
+          "name": "NordVPN Complete Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://nordvpn.com"
+        },
+        {
+          "id": "nordvpn_complete_anual",
+          "name": "NordVPN Complete Anual",
+          "monthly_price": 14.99,
+          "annual_price": 83.88,
+          "url": "https://nordvpn.com"
+        },
+        {
+          "id": "expressvpn_mensual",
+          "name": "ExpressVPN Mensual",
+          "monthly_price": 12.95,
+          "annual_price": null,
+          "url": "https://www.expressvpn.com"
+        },
+        {
+          "id": "expressvpn_anual",
+          "name": "ExpressVPN Anual",
+          "monthly_price": 12.95,
+          "annual_price": 99.95,
+          "url": "https://www.expressvpn.com"
+        },
+        {
+          "id": "surfshark_starter_mensual",
+          "name": "Surfshark Starter Mensual",
+          "monthly_price": 15.95,
+          "annual_price": null,
+          "url": "https://surfshark.com"
+        },
+        {
+          "id": "surfshark_starter_anual",
+          "name": "Surfshark Starter Anual",
+          "monthly_price": 15.95,
+          "annual_price": 47.88,
+          "url": "https://surfshark.com"
+        },
+        {
+          "id": "surfshark_one_mensual",
+          "name": "Surfshark One Mensual",
+          "monthly_price": 17.95,
+          "annual_price": null,
+          "url": "https://surfshark.com"
+        },
+        {
+          "id": "surfshark_one_anual",
+          "name": "Surfshark One Anual",
+          "monthly_price": 17.95,
+          "annual_price": 59.88,
+          "url": "https://surfshark.com"
+        },
+        {
+          "id": "surfshark_oneplus_mensual",
+          "name": "Surfshark One+ Mensual",
+          "monthly_price": 19.95,
+          "annual_price": null,
+          "url": "https://surfshark.com"
+        },
+        {
+          "id": "surfshark_oneplus_anual",
+          "name": "Surfshark One+ Anual",
+          "monthly_price": 6.99,
+          "annual_price": 83.88,
+          "url": "https://surfshark.com"
+        },
+        {
+          "id": "1password_individual_mensual",
+          "name": "1Password Individual Mensual",
+          "monthly_price": 2.99,
+          "annual_price": null,
+          "url": "https://1password.com"
+        },
+        {
+          "id": "1password_individual_anual",
+          "name": "1Password Individual Anual",
+          "monthly_price": 2.99,
+          "annual_price": 35.88,
+          "url": "https://1password.com"
+        },
+        {
+          "id": "1password_familiar_mensual",
+          "name": "1Password Familiar Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://1password.com"
+        },
+        {
+          "id": "1password_familiar_anual",
+          "name": "1Password Familiar Anual",
+          "monthly_price": 4.99,
+          "annual_price": 59.88,
+          "url": "https://1password.com"
+        },
+        {
+          "id": "1password_business_mensual",
+          "name": "1Password Business Mensual",
+          "monthly_price": 8.0,
+          "annual_price": null,
+          "url": "https://1password.com"
+        },
+        {
+          "id": "1password_business_anual",
+          "name": "1Password Business Anual",
+          "monthly_price": 8.0,
+          "annual_price": 96.0,
+          "url": "https://1password.com"
+        },
+        {
+          "id": "lastpass_premium_mensual",
+          "name": "LastPass Premium Mensual",
+          "monthly_price": 3.0,
+          "annual_price": null,
+          "url": "https://www.lastpass.com"
+        },
+        {
+          "id": "lastpass_premium_anual",
+          "name": "LastPass Premium Anual",
+          "monthly_price": 3.0,
+          "annual_price": 36.0,
+          "url": "https://www.lastpass.com"
+        },
+        {
+          "id": "lastpass_familiar_mensual",
+          "name": "LastPass Familiar Mensual",
+          "monthly_price": 4.0,
+          "annual_price": null,
+          "url": "https://www.lastpass.com"
+        },
+        {
+          "id": "lastpass_familiar_anual",
+          "name": "LastPass Familiar Anual",
+          "monthly_price": 4.0,
+          "annual_price": 48.0,
+          "url": "https://www.lastpass.com"
+        },
+        {
+          "id": "dashlane_premium_mensual",
+          "name": "Dashlane Premium Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.dashlane.com"
+        },
+        {
+          "id": "dashlane_premium_anual",
+          "name": "Dashlane Premium Anual",
+          "monthly_price": 4.99,
+          "annual_price": 59.88,
+          "url": "https://www.dashlane.com"
+        },
+        {
+          "id": "dashlane_familiar_mensual",
+          "name": "Dashlane Familiar Mensual",
+          "monthly_price": 7.49,
+          "annual_price": null,
+          "url": "https://www.dashlane.com"
+        },
+        {
+          "id": "dashlane_familiar_anual",
+          "name": "Dashlane Familiar Anual",
+          "monthly_price": 7.49,
+          "annual_price": 89.88,
+          "url": "https://www.dashlane.com"
+        },
+        {
+          "id": "norton_360_standard_mensual",
+          "name": "Norton 360 Standard Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://norton.com"
+        },
+        {
+          "id": "norton_360_standard_anual",
+          "name": "Norton 360 Standard Anual",
+          "monthly_price": 7.99,
+          "annual_price": 39.99,
+          "url": "https://norton.com"
+        },
+        {
+          "id": "norton_360_deluxe_mensual",
+          "name": "Norton 360 Deluxe Mensual",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://norton.com"
+        },
+        {
+          "id": "norton_360_deluxe_anual",
+          "name": "Norton 360 Deluxe Anual",
+          "monthly_price": 11.99,
+          "annual_price": 49.99,
+          "url": "https://norton.com"
+        },
+        {
+          "id": "norton_360_premium_mensual",
+          "name": "Norton 360 Premium Mensual",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://norton.com"
+        },
+        {
+          "id": "norton_360_premium_anual",
+          "name": "Norton 360 Premium Anual",
+          "monthly_price": 13.99,
+          "annual_price": 59.99,
+          "url": "https://norton.com"
+        },
+        {
+          "id": "mcafee_total_protection_mensual",
+          "name": "McAfee Total Protection Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.mcafee.com"
+        },
+        {
+          "id": "mcafee_total_protection_anual",
+          "name": "McAfee Total Protection Anual",
+          "monthly_price": 7.99,
+          "annual_price": 39.99,
+          "url": "https://www.mcafee.com"
+        },
+        {
+          "id": "mcafeeplus_premium_mensual",
+          "name": "McAfee+ Premium Mensual",
+          "monthly_price": 12.99,
+          "annual_price": null,
+          "url": "https://www.mcafee.com"
+        },
+        {
+          "id": "mcafeeplus_premium_anual",
+          "name": "McAfee+ Premium Anual",
+          "monthly_price": 4.17,
+          "annual_price": 49.99,
+          "url": "https://www.mcafee.com"
+        },
+        {
+          "id": "mcafeeplus_advanced_mensual",
+          "name": "McAfee+ Advanced Mensual",
+          "monthly_price": 17.99,
+          "annual_price": null,
+          "url": "https://www.mcafee.com"
+        },
+        {
+          "id": "mcafeeplus_advanced_anual",
+          "name": "McAfee+ Advanced Anual",
+          "monthly_price": 7.5,
+          "annual_price": 89.99,
+          "url": "https://www.mcafee.com"
+        }
+      ]
+    },
+    "noticias": {
+      "name": "Noticias",
+      "icon": "📰",
+      "platforms": [
+        {
+          "id": "la_vanguardia_mensual",
+          "name": "La Vanguardia Digital Mensual",
+          "monthly_price": 6.0,
+          "annual_price": null,
+          "url": "https://www.lavanguardia.com"
+        },
+        {
+          "id": "la_vanguardia_anual",
+          "name": "La Vanguardia Digital Anual",
+          "monthly_price": 6.0,
+          "annual_price": 60.0,
+          "url": "https://www.lavanguardia.com"
+        },
+        {
+          "id": "abc_premium_mensual",
+          "name": "ABC Premium Mensual",
+          "monthly_price": 5.95,
+          "annual_price": null,
+          "url": "https://www.abc.es"
+        },
+        {
+          "id": "abc_premium_anual",
+          "name": "ABC Premium Anual",
+          "monthly_price": 5.95,
+          "annual_price": 59.95,
+          "url": "https://www.abc.es"
+        },
+        {
+          "id": "el_confidencial_pro_mensual",
+          "name": "El Confidencial PRO Mensual",
+          "monthly_price": 8.99,
+          "annual_price": null,
+          "url": "https://www.elconfidencial.com"
+        },
+        {
+          "id": "el_confidencial_pro_anual",
+          "name": "El Confidencial PRO Anual",
+          "monthly_price": 8.99,
+          "annual_price": 89.99,
+          "url": "https://www.elconfidencial.com"
+        },
+        {
+          "id": "la_razon_premium_mensual",
+          "name": "La Razón Premium Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.larazon.es"
+        },
+        {
+          "id": "la_razon_premium_anual",
+          "name": "La Razón Premium Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.larazon.es"
+        },
+        {
+          "id": "eldiario.es_mensual",
+          "name": "elDiario.es Socio Mensual",
+          "monthly_price": 8.0,
+          "annual_price": null,
+          "url": "https://www.eldiario.es"
+        },
+        {
+          "id": "eldiario.es_anual",
+          "name": "elDiario.es Socio Anual",
+          "monthly_price": 8.0,
+          "annual_price": 80.0,
+          "url": "https://www.eldiario.es"
+        },
+        {
+          "id": "el_espanol_mensual",
+          "name": "El Español Premium Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.elespanol.com"
+        },
+        {
+          "id": "el_espanol_anual",
+          "name": "El Español Premium Anual",
+          "monthly_price": 7.99,
+          "annual_price": 79.99,
+          "url": "https://www.elespanol.com"
+        },
+        {
+          "id": "expansion_mensual",
+          "name": "Expansión Digital Mensual",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://www.expansion.com"
+        },
+        {
+          "id": "expansion_anual",
+          "name": "Expansión Digital Anual",
+          "monthly_price": 11.99,
+          "annual_price": 119.99,
+          "url": "https://www.expansion.com"
+        },
+        {
+          "id": "cinco_dias_mensual",
+          "name": "Cinco Días Premium Mensual",
+          "monthly_price": 8.99,
+          "annual_price": null,
+          "url": "https://cincodias.elpais.com"
+        },
+        {
+          "id": "cinco_dias_anual",
+          "name": "Cinco Días Premium Anual",
+          "monthly_price": 8.99,
+          "annual_price": 89.99,
+          "url": "https://cincodias.elpais.com"
+        },
+        {
+          "id": "marca_plus_mensual",
+          "name": "Marca Plus Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.marca.com"
+        },
+        {
+          "id": "marca_plus_anual",
+          "name": "Marca Plus Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.marca.com"
+        },
+        {
+          "id": "asplus_mensual",
+          "name": "AS Plus Mensual",
+          "monthly_price": 3.99,
+          "annual_price": null,
+          "url": "https://as.com"
+        },
+        {
+          "id": "asplus_anual",
+          "name": "AS Plus Anual",
+          "monthly_price": 3.33,
+          "annual_price": 39.99,
+          "url": "https://as.com"
+        },
+        {
+          "id": "sport_mensual",
+          "name": "Sport Premium Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.sport.es"
+        },
+        {
+          "id": "sport_anual",
+          "name": "Sport Premium Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.sport.es"
+        },
+        {
+          "id": "mundo_deportivo_mensual",
+          "name": "Mundo Deportivo Premium Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.mundodeportivo.com"
+        },
+        {
+          "id": "mundo_deportivo_anual",
+          "name": "Mundo Deportivo Premium Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://www.mundodeportivo.com"
+        },
+        {
+          "id": "el_pais_mensual",
+          "name": "El País Digital Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://elpais.com"
+        },
+        {
+          "id": "el_pais_anual",
+          "name": "El País Digital Anual",
+          "monthly_price": 10.0,
+          "annual_price": 96.0,
+          "url": "https://elpais.com"
+        },
+        {
+          "id": "el_mundo_mensual",
+          "name": "El Mundo Premium Mensual",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.elmundo.es"
+        },
+        {
+          "id": "el_mundo_anual",
+          "name": "El Mundo Premium Anual",
+          "monthly_price": 7.99,
+          "annual_price": 79.99,
+          "url": "https://www.elmundo.es"
+        },
+        {
+          "id": "the_new_york_times_mensual",
+          "name": "The New York Times Mensual",
+          "monthly_price": 4.25,
+          "annual_price": null,
+          "url": "https://www.nytimes.com"
+        },
+        {
+          "id": "the_new_york_times_anual",
+          "name": "The New York Times Anual",
+          "monthly_price": 4.25,
+          "annual_price": 51.0,
+          "url": "https://www.nytimes.com"
+        },
+        {
+          "id": "the_washington_post_mensual",
+          "name": "The Washington Post Mensual",
+          "monthly_price": 10.0,
+          "annual_price": null,
+          "url": "https://subscribe.washingtonpost.com"
+        },
+        {
+          "id": "the_washington_post_anual",
+          "name": "The Washington Post Anual",
+          "monthly_price": 10.0,
+          "annual_price": 100.0,
+          "url": "https://subscribe.washingtonpost.com"
+        },
+        {
+          "id": "the_wall_street_journal_mensual",
+          "name": "The Wall Street Journal Mensual",
+          "monthly_price": 38.99,
+          "annual_price": null,
+          "url": "https://www.wsj.com"
+        },
+        {
+          "id": "the_wall_street_journal_anual",
+          "name": "The Wall Street Journal Anual",
+          "monthly_price": 38.99,
+          "annual_price": 467.88,
+          "url": "https://www.wsj.com"
+        },
+        {
+          "id": "the_economist_mensual",
+          "name": "The Economist Mensual",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://www.economist.com"
+        },
+        {
+          "id": "the_economist_anual",
+          "name": "The Economist Anual",
+          "monthly_price": 29.99,
+          "annual_price": 189.0,
+          "url": "https://www.economist.com"
+        }
+      ]
+    },
+    "musica": {
+      "name": "Música",
+      "icon": "🎵",
+      "platforms": [
+        {
+          "id": "spotify_individual",
+          "name": "Spotify Premium Individual",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://www.spotify.com"
+        },
+        {
+          "id": "spotify_duo",
+          "name": "Spotify Premium Duo",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://www.spotify.com"
+        },
+        {
+          "id": "spotify_familiar",
+          "name": "Spotify Premium Familiar",
+          "monthly_price": 20.99,
+          "annual_price": null,
+          "url": "https://www.spotify.com"
+        },
+        {
+          "id": "spotify_estudiante",
+          "name": "Spotify Premium Estudiante",
+          "monthly_price": 6.49,
+          "annual_price": null,
+          "url": "https://www.spotify.com"
+        },
+        {
+          "id": "apple_music_individual_mensual",
+          "name": "Apple Music Individual Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://music.apple.com"
+        },
+        {
+          "id": "apple_music_individual_anual",
+          "name": "Apple Music Individual Anual",
+          "monthly_price": 10.99,
+          "annual_price": 109.0,
+          "url": "https://music.apple.com"
+        },
+        {
+          "id": "apple_music_familiar",
+          "name": "Apple Music Familiar",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://music.apple.com"
+        },
+        {
+          "id": "apple_music_estudiante",
+          "name": "Apple Music Estudiante",
+          "monthly_price": 5.99,
+          "annual_price": null,
+          "url": "https://music.apple.com"
+        },
+        {
+          "id": "amazon_music_unlimited_individual_mensual",
+          "name": "Amazon Music Unlimited Individual Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://music.amazon.com"
+        },
+        {
+          "id": "amazon_music_unlimited_individual_anual",
+          "name": "Amazon Music Unlimited Individual Anual",
+          "monthly_price": 10.99,
+          "annual_price": 109.0,
+          "url": "https://music.amazon.com"
+        },
+        {
+          "id": "amazon_music_unlimited_familiar_mensual",
+          "name": "Amazon Music Unlimited Familiar Mensual",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://music.amazon.com"
+        },
+        {
+          "id": "amazon_music_unlimited_familiar_anual",
+          "name": "Amazon Music Unlimited Familiar Anual",
+          "monthly_price": 16.99,
+          "annual_price": 169.0,
+          "url": "https://music.amazon.com"
+        },
+        {
+          "id": "amazon_music_unlimited_prime_mensual",
+          "name": "Amazon Music Unlimited Prime Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://music.amazon.com"
+        },
+        {
+          "id": "amazon_music_unlimited_prime_anual",
+          "name": "Amazon Music Unlimited Prime Anual",
+          "monthly_price": 9.99,
+          "annual_price": 99.0,
+          "url": "https://music.amazon.com"
+        },
+        {
+          "id": "youtube_music_individual_mensual",
+          "name": "YouTube Music Individual Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://music.youtube.com"
+        },
+        {
+          "id": "youtube_music_individual_anual",
+          "name": "YouTube Music Individual Anual",
+          "monthly_price": 10.99,
+          "annual_price": 109.99,
+          "url": "https://music.youtube.com"
+        },
+        {
+          "id": "youtube_music_familiar",
+          "name": "YouTube Music Familiar",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://music.youtube.com"
+        },
+        {
+          "id": "youtube_music_estudiante",
+          "name": "YouTube Music Estudiante",
+          "monthly_price": 5.49,
+          "annual_price": null,
+          "url": "https://music.youtube.com"
+        },
+        {
+          "id": "deezer_premium_mensual",
+          "name": "Deezer Premium Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://www.deezer.com"
+        },
+        {
+          "id": "deezer_premium_anual",
+          "name": "Deezer Premium Anual",
+          "monthly_price": 10.99,
+          "annual_price": 98.9,
+          "url": "https://www.deezer.com"
+        },
+        {
+          "id": "deezer_familiar_mensual",
+          "name": "Deezer Familiar Mensual",
+          "monthly_price": 17.99,
+          "annual_price": null,
+          "url": "https://www.deezer.com"
+        },
+        {
+          "id": "deezer_familiar_anual",
+          "name": "Deezer Familiar Anual",
+          "monthly_price": 17.99,
+          "annual_price": 161.88,
+          "url": "https://www.deezer.com"
+        },
+        {
+          "id": "deezer_estudiante_mensual",
+          "name": "Deezer Estudiante Mensual",
+          "monthly_price": 5.49,
+          "annual_price": null,
+          "url": "https://www.deezer.com"
+        },
+        {
+          "id": "deezer_estudiante_anual",
+          "name": "Deezer Estudiante Anual",
+          "monthly_price": 5.49,
+          "annual_price": 49.44,
+          "url": "https://www.deezer.com"
+        },
+        {
+          "id": "tidal_hifi_mensual",
+          "name": "Tidal HiFi Mensual",
+          "monthly_price": 10.99,
+          "annual_price": null,
+          "url": "https://tidal.com"
+        },
+        {
+          "id": "tidal_hifi_anual",
+          "name": "Tidal HiFi Anual",
+          "monthly_price": 10.99,
+          "annual_price": 107.88,
+          "url": "https://tidal.com"
+        },
+        {
+          "id": "tidal_hifi_plus_mensual",
+          "name": "Tidal HiFi Plus Mensual",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://tidal.com"
+        },
+        {
+          "id": "tidal_hifi_plus_anual",
+          "name": "Tidal HiFi Plus Anual",
+          "monthly_price": 19.99,
+          "annual_price": 191.88,
+          "url": "https://tidal.com"
+        },
+        {
+          "id": "soundcloud_go_mensual",
+          "name": "SoundCloud Go Mensual",
+          "monthly_price": 5.99,
+          "annual_price": null,
+          "url": "https://soundcloud.com"
+        },
+        {
+          "id": "soundcloud_go_anual",
+          "name": "SoundCloud Go Anual",
+          "monthly_price": 5.99,
+          "annual_price": 59.88,
+          "url": "https://soundcloud.com"
+        },
+        {
+          "id": "soundcloud_goplus_mensual",
+          "name": "SoundCloud Go+ Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://soundcloud.com"
+        },
+        {
+          "id": "soundcloud_goplus_anual",
+          "name": "SoundCloud Go+ Anual",
+          "monthly_price": 8.25,
+          "annual_price": 99.0,
+          "url": "https://soundcloud.com"
+        }
+      ]
+    },
+    "educacion": {
+      "name": "Educación",
+      "icon": "📚",
+      "platforms": [
+        {
+          "id": "platzi_mensual",
+          "name": "Platzi Expert Mensual",
+          "monthly_price": 39.0,
+          "annual_price": null,
+          "url": "https://platzi.com"
+        },
+        {
+          "id": "platzi_anual",
+          "name": "Platzi Expert Anual",
+          "monthly_price": 39.0,
+          "annual_price": 299.0,
+          "url": "https://platzi.com"
+        },
+        {
+          "id": "domestika_pro_mensual",
+          "name": "Domestika Pro Mensual",
+          "monthly_price": 9.9,
+          "annual_price": null,
+          "url": "https://www.domestika.org"
+        },
+        {
+          "id": "domestika_pro_anual",
+          "name": "Domestika Pro Anual",
+          "monthly_price": 9.9,
+          "annual_price": 99.9,
+          "url": "https://www.domestika.org"
+        },
+        {
+          "id": "crehana_premium_mensual",
+          "name": "Crehana Premium Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.crehana.com"
+        },
+        {
+          "id": "crehana_premium_anual",
+          "name": "Crehana Premium Anual",
+          "monthly_price": 14.99,
+          "annual_price": 149.0,
+          "url": "https://www.crehana.com"
+        },
+        {
+          "id": "tutellus_pro_mensual",
+          "name": "Tutellus PRO Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://www.tutellus.com"
+        },
+        {
+          "id": "tutellus_pro_anual",
+          "name": "Tutellus PRO Anual",
+          "monthly_price": 29.0,
+          "annual_price": 290.0,
+          "url": "https://www.tutellus.com"
+        },
+        {
+          "id": "educaplay_mensual",
+          "name": "Educaplay Premium Mensual",
+          "monthly_price": 5.95,
+          "annual_price": null,
+          "url": "https://www.educaplay.com"
+        },
+        {
+          "id": "educaplay_anual",
+          "name": "Educaplay Premium Anual",
+          "monthly_price": 5.95,
+          "annual_price": 59.4,
+          "url": "https://www.educaplay.com"
+        },
+        {
+          "id": "duolingo_plus_mensual",
+          "name": "Duolingo Plus Mensual",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://www.duolingo.com"
+        },
+        {
+          "id": "duolingo_plus_anual",
+          "name": "Duolingo Plus Anual",
+          "monthly_price": 13.99,
+          "annual_price": 83.99,
+          "url": "https://www.duolingo.com"
+        },
+        {
+          "id": "duolingo_familiar",
+          "name": "Duolingo Familiar",
+          "monthly_price": null,
+          "annual_price": 119.99,
+          "url": "https://www.duolingo.com"
+        },
+        {
+          "id": "coursera_plus_mensual",
+          "name": "Coursera Plus Mensual",
+          "monthly_price": 49.0,
+          "annual_price": null,
+          "url": "https://www.coursera.org"
+        },
+        {
+          "id": "coursera_plus_anual",
+          "name": "Coursera Plus Anual",
+          "monthly_price": 49.0,
+          "annual_price": 399.0,
+          "url": "https://www.coursera.org"
+        },
+        {
+          "id": "udemy_personal_plan_mensual",
+          "name": "Udemy Personal Plan Mensual",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://www.udemy.com"
+        },
+        {
+          "id": "udemy_personal_plan_anual",
+          "name": "Udemy Personal Plan Anual",
+          "monthly_price": 29.99,
+          "annual_price": 239.88,
+          "url": "https://www.udemy.com"
+        },
+        {
+          "id": "skillshare_premium_mensual",
+          "name": "Skillshare Premium Mensual",
+          "monthly_price": 32.0,
+          "annual_price": null,
+          "url": "https://www.skillshare.com"
+        },
+        {
+          "id": "skillshare_premium_anual",
+          "name": "Skillshare Premium Anual",
+          "monthly_price": 32.0,
+          "annual_price": 168.0,
+          "url": "https://www.skillshare.com"
+        },
+        {
+          "id": "masterclass_individual_mensual",
+          "name": "MasterClass Individual Mensual",
+          "monthly_price": 15.0,
+          "annual_price": null,
+          "url": "https://www.masterclass.com"
+        },
+        {
+          "id": "masterclass_individual_anual",
+          "name": "MasterClass Individual Anual",
+          "monthly_price": 15.0,
+          "annual_price": 180.0,
+          "url": "https://www.masterclass.com"
+        },
+        {
+          "id": "masterclass_duo_mensual",
+          "name": "MasterClass Duo Mensual",
+          "monthly_price": 20.0,
+          "annual_price": null,
+          "url": "https://www.masterclass.com"
+        },
+        {
+          "id": "masterclass_duo_anual",
+          "name": "MasterClass Duo Anual",
+          "monthly_price": 20.0,
+          "annual_price": 240.0,
+          "url": "https://www.masterclass.com"
+        },
+        {
+          "id": "masterclass_familiar_mensual",
+          "name": "MasterClass Familiar Mensual",
+          "monthly_price": 23.0,
+          "annual_price": null,
+          "url": "https://www.masterclass.com"
+        },
+        {
+          "id": "masterclass_familiar_anual",
+          "name": "MasterClass Familiar Anual",
+          "monthly_price": 23.0,
+          "annual_price": 276.0,
+          "url": "https://www.masterclass.com"
+        },
+        {
+          "id": "linkedin_learning_mensual",
+          "name": "LinkedIn Learning Mensual",
+          "monthly_price": 39.99,
+          "annual_price": null,
+          "url": "https://www.linkedin.com"
+        },
+        {
+          "id": "linkedin_learning_anual",
+          "name": "LinkedIn Learning Anual",
+          "monthly_price": 39.99,
+          "annual_price": 323.88,
+          "url": "https://www.linkedin.com"
+        },
+        {
+          "id": "babbel_mensual",
+          "name": "Babbel Mensual",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://www.babbel.com"
+        },
+        {
+          "id": "babbel_anual",
+          "name": "Babbel Anual",
+          "monthly_price": 13.99,
+          "annual_price": 83.88,
+          "url": "https://www.babbel.com"
+        },
+        {
+          "id": "rosetta_stone_3_meses",
+          "name": "Rosetta Stone 3 Meses",
+          "monthly_price": 15.99,
+          "annual_price": null,
+          "url": "https://www.rosettastone.com"
+        },
+        {
+          "id": "rosetta_stone_anual",
+          "name": "Rosetta Stone Anual",
+          "monthly_price": null,
+          "annual_price": 95.88,
+          "url": "https://www.rosettastone.com"
+        }
+      ]
+    },
+    "almacenamiento": {
+      "name": "Almacenamiento en la nube",
+      "icon": "☁️",
+      "platforms": [
+        {
+          "id": "google_one_100gb_mensual",
+          "name": "Google One 100GB Mensual",
+          "monthly_price": 1.99,
+          "annual_price": null,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_100gb_anual",
+          "name": "Google One 100GB Anual",
+          "monthly_price": 1.67,
+          "annual_price": 19.99,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_200gb_mensual",
+          "name": "Google One 200GB Mensual",
+          "monthly_price": 2.99,
+          "annual_price": null,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_200gb_anual",
+          "name": "Google One 200GB Anual",
+          "monthly_price": 2.5,
+          "annual_price": 29.99,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_2tb_mensual",
+          "name": "Google One 2TB Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_2tb_anual",
+          "name": "Google One 2TB Anual",
+          "monthly_price": 9.99,
+          "annual_price": 99.99,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_5tb_mensual",
+          "name": "Google One 5TB Mensual",
+          "monthly_price": 24.99,
+          "annual_price": null,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_5tb_anual",
+          "name": "Google One 5TB Anual",
+          "monthly_price": 24.99,
+          "annual_price": 249.99,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "google_one_10tb",
+          "name": "Google One 10TB",
+          "monthly_price": 49.99,
+          "annual_price": null,
+          "url": "https://one.google.com"
+        },
+        {
+          "id": "icloudplus_50gb",
+          "name": "iCloud+ 50GB",
+          "monthly_price": 0.99,
+          "annual_price": null,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "icloudplus_200gb",
+          "name": "iCloud+ 200GB",
+          "monthly_price": 2.99,
+          "annual_price": null,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "icloudplus_2tb",
+          "name": "iCloud+ 2TB",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "icloudplus_6tb",
+          "name": "iCloud+ 6TB",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "icloudplus_12tb",
+          "name": "iCloud+ 12TB",
+          "monthly_price": 59.99,
+          "annual_price": null,
+          "url": "https://www.apple.com"
+        },
+        {
+          "id": "dropbox_plus_mensual",
+          "name": "Dropbox Plus Mensual",
+          "monthly_price": 11.99,
+          "annual_price": null,
+          "url": "https://www.dropbox.com"
+        },
+        {
+          "id": "dropbox_plus_anual",
+          "name": "Dropbox Plus Anual",
+          "monthly_price": 11.99,
+          "annual_price": 119.88,
+          "url": "https://www.dropbox.com"
+        },
+        {
+          "id": "dropbox_familiar_mensual",
+          "name": "Dropbox Familiar Mensual",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://www.dropbox.com"
+        },
+        {
+          "id": "dropbox_familiar_anual",
+          "name": "Dropbox Familiar Anual",
+          "monthly_price": 16.99,
+          "annual_price": 203.88,
+          "url": "https://www.dropbox.com"
+        },
+        {
+          "id": "dropbox_professional_mensual",
+          "name": "Dropbox Professional Mensual",
+          "monthly_price": 19.99,
+          "annual_price": null,
+          "url": "https://www.dropbox.com"
+        },
+        {
+          "id": "dropbox_professional_anual",
+          "name": "Dropbox Professional Anual",
+          "monthly_price": 19.99,
+          "annual_price": 199.0,
+          "url": "https://www.dropbox.com"
+        },
+        {
+          "id": "onedrive_100gb_mensual",
+          "name": "OneDrive 100GB Mensual",
+          "monthly_price": 2.0,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "onedrive_100gb_anual",
+          "name": "OneDrive 100GB Anual",
+          "monthly_price": 1.67,
+          "annual_price": 20.0,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "onedrive_1tb_mensual",
+          "name": "OneDrive 1TB Mensual",
+          "monthly_price": 7.0,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "onedrive_1tb_anual",
+          "name": "OneDrive 1TB Anual",
+          "monthly_price": 7.0,
+          "annual_price": 69.0,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "pcloud_premium_500gb_mensual",
+          "name": "pCloud Premium 500GB Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.pcloud.com"
+        },
+        {
+          "id": "pcloud_premium_500gb_anual",
+          "name": "pCloud Premium 500GB Anual",
+          "monthly_price": 4.99,
+          "annual_price": 47.88,
+          "url": "https://www.pcloud.com"
+        },
+        {
+          "id": "pcloud_premium_plus_2tb_mensual",
+          "name": "pCloud Premium Plus 2TB Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.pcloud.com"
+        },
+        {
+          "id": "pcloud_premium_plus_2tb_anual",
+          "name": "pCloud Premium Plus 2TB Anual",
+          "monthly_price": 9.99,
+          "annual_price": 95.88,
+          "url": "https://www.pcloud.com"
+        }
+      ]
+    },
+    "videojuegos": {
+      "name": "Videojuegos",
+      "icon": "🎮",
+      "platforms": [
+        {
+          "id": "xbox_game_pass_core_mensual",
+          "name": "Xbox Game Pass Essential Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.xbox.com"
+        },
+        {
+          "id": "xbox_game_pass_core_anual",
+          "name": "Xbox Game Pass Essential Anual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.xbox.com"
+        },
+        {
+          "id": "xbox_game_pass_console",
+          "name": "Xbox Game Pass Premium",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.xbox.com"
+        },
+        {
+          "id": "xbox_game_pass_pc",
+          "name": "Xbox Game Pass PC",
+          "monthly_price": 16.49,
+          "annual_price": null,
+          "url": "https://www.xbox.com"
+        },
+        {
+          "id": "xbox_game_pass_ultimate",
+          "name": "Xbox Game Pass Ultimate",
+          "monthly_price": 29.99,
+          "annual_price": null,
+          "url": "https://www.xbox.com"
+        },
+        {
+          "id": "playstation_plus_essential_mensual",
+          "name": "PlayStation Plus Essential Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://www.playstation.com"
+        },
+        {
+          "id": "playstation_plus_essential_anual",
+          "name": "PlayStation Plus Essential Anual",
+          "monthly_price": 9.99,
+          "annual_price": 59.99,
+          "url": "https://www.playstation.com"
+        },
+        {
+          "id": "playstation_plus_extra_mensual",
+          "name": "PlayStation Plus Extra Mensual",
+          "monthly_price": 14.99,
+          "annual_price": null,
+          "url": "https://www.playstation.com"
+        },
+        {
+          "id": "playstation_plus_extra_anual",
+          "name": "PlayStation Plus Extra Anual",
+          "monthly_price": 14.99,
+          "annual_price": 99.99,
+          "url": "https://www.playstation.com"
+        },
+        {
+          "id": "playstation_plus_deluxe_mensual",
+          "name": "PlayStation Plus Deluxe Mensual",
+          "monthly_price": 17.99,
+          "annual_price": null,
+          "url": "https://www.playstation.com"
+        },
+        {
+          "id": "playstation_plus_deluxe_anual",
+          "name": "PlayStation Plus Deluxe Anual",
+          "monthly_price": 17.99,
+          "annual_price": 119.99,
+          "url": "https://www.playstation.com"
+        },
+        {
+          "id": "nintendo_switch_online_individual_mensual",
+          "name": "Nintendo Switch Online Individual Mensual",
+          "monthly_price": 3.99,
+          "annual_price": null,
+          "url": "https://www.nintendo.es"
+        },
+        {
+          "id": "nintendo_switch_online_individual_anual",
+          "name": "Nintendo Switch Online Individual Anual",
+          "monthly_price": 3.99,
+          "annual_price": 19.99,
+          "url": "https://www.nintendo.es"
+        },
+        {
+          "id": "nintendo_switch_online_familiar",
+          "name": "Nintendo Switch Online Familiar",
+          "monthly_price": null,
+          "annual_price": 34.99,
+          "url": "https://www.nintendo.es"
+        },
+        {
+          "id": "nintendo_switch_onlineplus_expansion",
+          "name": "Nintendo Switch Online + Expansion Pack",
+          "monthly_price": null,
+          "annual_price": 39.99,
+          "url": "https://www.nintendo.es"
+        },
+        {
+          "id": "ea_play_mensual",
+          "name": "EA Play Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.ea.com"
+        },
+        {
+          "id": "ea_play_anual",
+          "name": "EA Play Anual",
+          "monthly_price": 4.99,
+          "annual_price": 29.99,
+          "url": "https://www.ea.com"
+        },
+        {
+          "id": "ea_play_pro_mensual",
+          "name": "EA Play Pro Mensual",
+          "monthly_price": 16.99,
+          "annual_price": null,
+          "url": "https://www.ea.com"
+        },
+        {
+          "id": "ea_play_pro_anual",
+          "name": "EA Play Pro Anual",
+          "monthly_price": 16.99,
+          "annual_price": 99.99,
+          "url": "https://www.ea.com"
+        },
+        {
+          "id": "ubisoftplus_premium_mensual",
+          "name": "Ubisoft+ Premium Mensual",
+          "monthly_price": 17.99,
+          "annual_price": null,
+          "url": "https://store.ubisoft.com"
+        },
+        {
+          "id": "ubisoftplus_premium_anual",
+          "name": "Ubisoft+ Premium Anual",
+          "monthly_price": 14.99,
+          "annual_price": 179.88,
+          "url": "https://store.ubisoft.com"
+        },
+        {
+          "id": "ubisoftplus_classics",
+          "name": "Ubisoft+ Classics",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://store.ubisoft.com"
+        },
+        {
+          "id": "discord_nitro_classic_mensual",
+          "name": "Discord Nitro Classic Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://discord.com"
+        },
+        {
+          "id": "discord_nitro_classic_anual",
+          "name": "Discord Nitro Classic Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.99,
+          "url": "https://discord.com"
+        },
+        {
+          "id": "discord_nitro_mensual",
+          "name": "Discord Nitro Mensual",
+          "monthly_price": 9.99,
+          "annual_price": null,
+          "url": "https://discord.com"
+        },
+        {
+          "id": "discord_nitro_anual",
+          "name": "Discord Nitro Anual",
+          "monthly_price": 9.99,
+          "annual_price": 99.99,
+          "url": "https://discord.com"
+        }
+      ]
+    },
+    "desarrollo": {
+      "name": "Desarrollo",
+      "icon": "👨‍💻",
+      "platforms": [
+        {
+          "id": "github_pro_mensual",
+          "name": "GitHub Pro Mensual",
+          "monthly_price": 4.0,
+          "annual_price": null,
+          "url": "https://github.com"
+        },
+        {
+          "id": "github_pro_anual",
+          "name": "GitHub Pro Anual",
+          "monthly_price": 3.67,
+          "annual_price": 44.0,
+          "url": "https://github.com"
+        },
+        {
+          "id": "github_team_mensual",
+          "name": "GitHub Team Mensual",
+          "monthly_price": 4.0,
+          "annual_price": null,
+          "url": "https://github.com"
+        },
+        {
+          "id": "github_team_anual",
+          "name": "GitHub Team Anual",
+          "monthly_price": 3.67,
+          "annual_price": 44.0,
+          "url": "https://github.com"
+        },
+        {
+          "id": "jetbrains_all_products_mensual",
+          "name": "JetBrains All Products Mensual",
+          "monthly_price": 24.9,
+          "annual_price": null,
+          "url": "https://www.jetbrains.com"
+        },
+        {
+          "id": "jetbrains_all_products_anual",
+          "name": "JetBrains All Products Anual",
+          "monthly_price": 24.9,
+          "annual_price": 249.0,
+          "url": "https://www.jetbrains.com"
+        },
+        {
+          "id": "jetbrains_intellij_idea_mensual",
+          "name": "JetBrains IntelliJ IDEA Mensual",
+          "monthly_price": 14.9,
+          "annual_price": null,
+          "url": "https://www.jetbrains.com"
+        },
+        {
+          "id": "jetbrains_intellij_idea_anual",
+          "name": "JetBrains IntelliJ IDEA Anual",
+          "monthly_price": 14.9,
+          "annual_price": 149.0,
+          "url": "https://www.jetbrains.com"
+        },
+        {
+          "id": "visual_studio_professional_mensual",
+          "name": "Visual Studio Professional Mensual",
+          "monthly_price": 45.0,
+          "annual_price": null,
+          "url": "https://visualstudio.microsoft.com"
+        },
+        {
+          "id": "visual_studio_professional_anual",
+          "name": "Visual Studio Professional Anual",
+          "monthly_price": 45.0,
+          "annual_price": 499.0,
+          "url": "https://visualstudio.microsoft.com"
+        },
+        {
+          "id": "visual_studio_enterprise_mensual",
+          "name": "Visual Studio Enterprise Mensual",
+          "monthly_price": 250.0,
+          "annual_price": null,
+          "url": "https://visualstudio.microsoft.com"
+        },
+        {
+          "id": "visual_studio_enterprise_anual",
+          "name": "Visual Studio Enterprise Anual",
+          "monthly_price": 249.92,
+          "annual_price": 2999.0,
+          "url": "https://visualstudio.microsoft.com"
+        },
+        {
+          "id": "gitlab_premium_mensual",
+          "name": "GitLab Premium Mensual",
+          "monthly_price": 29.0,
+          "annual_price": null,
+          "url": "https://about.gitlab.com"
+        },
+        {
+          "id": "gitlab_premium_anual",
+          "name": "GitLab Premium Anual",
+          "monthly_price": 29.0,
+          "annual_price": 348.0,
+          "url": "https://about.gitlab.com"
+        },
+        {
+          "id": "gitlab_ultimate_mensual",
+          "name": "GitLab Ultimate Mensual",
+          "monthly_price": 99.0,
+          "annual_price": null,
+          "url": "https://about.gitlab.com"
+        },
+        {
+          "id": "gitlab_ultimate_anual",
+          "name": "GitLab Ultimate Anual",
+          "monthly_price": 99.0,
+          "annual_price": 1188.0,
+          "url": "https://about.gitlab.com"
+        },
+        {
+          "id": "bitbucket_standard_mensual",
+          "name": "Bitbucket Standard Mensual",
+          "monthly_price": 3.0,
+          "annual_price": null,
+          "url": "https://bitbucket.org"
+        },
+        {
+          "id": "bitbucket_standard_anual",
+          "name": "Bitbucket Standard Anual",
+          "monthly_price": 3.0,
+          "annual_price": 36.0,
+          "url": "https://bitbucket.org"
+        },
+        {
+          "id": "bitbucket_premium_mensual",
+          "name": "Bitbucket Premium Mensual",
+          "monthly_price": 6.0,
+          "annual_price": null,
+          "url": "https://bitbucket.org"
+        },
+        {
+          "id": "bitbucket_premium_anual",
+          "name": "Bitbucket Premium Anual",
+          "monthly_price": 6.0,
+          "annual_price": 72.0,
+          "url": "https://bitbucket.org"
+        }
+      ]
+    },
+    "compras": {
+      "name": "Compras",
+      "icon": "🛒",
+      "platforms": [
+        {
+          "id": "amazon_prime_mensual",
+          "name": "Amazon Prime Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.amazon.es"
+        },
+        {
+          "id": "amazon_prime_anual",
+          "name": "Amazon Prime Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.9,
+          "url": "https://www.amazon.es"
+        },
+        {
+          "id": "el_corte_ingles_plus_mensual",
+          "name": "El Corte Inglés Plus Mensual",
+          "monthly_price": 3.9,
+          "annual_price": null,
+          "url": "https://www.elcorteingles.es"
+        },
+        {
+          "id": "el_corte_ingles_plus_anual",
+          "name": "El Corte Inglés Plus Anual",
+          "monthly_price": 3.9,
+          "annual_price": 39.0,
+          "url": "https://www.elcorteingles.es"
+        },
+        {
+          "id": "carrefour_pass_mensual",
+          "name": "Carrefour Pass Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.carrefour.es"
+        },
+        {
+          "id": "carrefour_pass_anual",
+          "name": "Carrefour Pass Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.9,
+          "url": "https://www.carrefour.es"
+        },
+        {
+          "id": "alcampo_plus_mensual",
+          "name": "Alcampo Plus Mensual",
+          "monthly_price": 3.99,
+          "annual_price": null,
+          "url": "https://www.alcampo.es"
+        },
+        {
+          "id": "alcampo_plus_anual",
+          "name": "Alcampo Plus Anual",
+          "monthly_price": 3.99,
+          "annual_price": 39.99,
+          "url": "https://www.alcampo.es"
+        },
+        {
+          "id": "dia_premium_mensual",
+          "name": "Día Premium Mensual",
+          "monthly_price": 2.99,
+          "annual_price": null,
+          "url": "https://www.dia.es"
+        },
+        {
+          "id": "dia_premium_anual",
+          "name": "Día Premium Anual",
+          "monthly_price": 2.5,
+          "annual_price": 29.99,
+          "url": "https://www.dia.es"
+        },
+        {
+          "id": "walmartplus_mensual",
+          "name": "Walmart+ Mensual",
+          "monthly_price": 12.95,
+          "annual_price": null,
+          "url": "https://www.walmart.com"
+        },
+        {
+          "id": "walmartplus_anual",
+          "name": "Walmart+ Anual",
+          "monthly_price": 8.17,
+          "annual_price": 98.0,
+          "url": "https://www.walmart.com"
+        },
+        {
+          "id": "costco_gold_star",
+          "name": "Costco Gold Star",
+          "monthly_price": null,
+          "annual_price": 60.0,
+          "url": "https://www.costco.com"
+        },
+        {
+          "id": "costco_executive",
+          "name": "Costco Executive",
+          "monthly_price": null,
+          "annual_price": 120.0,
+          "url": "https://www.costco.com"
+        },
+        {
+          "id": "ebay_plus_mensual",
+          "name": "eBay Plus Mensual",
+          "monthly_price": 4.99,
+          "annual_price": null,
+          "url": "https://www.ebay.com"
+        },
+        {
+          "id": "ebay_plus_anual",
+          "name": "eBay Plus Anual",
+          "monthly_price": 4.99,
+          "annual_price": 49.0,
+          "url": "https://www.ebay.com"
+        }
+      ]
+    },
+    "finanzas": {
+      "name": "Finanzas",
+      "icon": "💰",
+      "platforms": [
+        {
+          "id": "revolut_plus",
+          "name": "Revolut Plus",
+          "monthly_price": 3.99,
+          "annual_price": null,
+          "url": "https://www.revolut.com/es-ES/our-pricing-plans/"
+        },
+        {
+          "id": "revolut_premium",
+          "name": "Revolut Premium",
+          "monthly_price": 7.99,
+          "annual_price": null,
+          "url": "https://www.revolut.com/es-ES/our-pricing-plans/"
+        },
+        {
+          "id": "revolut_metal",
+          "name": "Revolut Metal",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://www.revolut.com/es-ES/our-pricing-plans/"
+        },
+        {
+          "id": "revolut_ultra",
+          "name": "Revolut Ultra",
+          "monthly_price": 45.0,
+          "annual_price": null,
+          "url": "https://www.revolut.com/es-ES/our-pricing-plans/"
+        },
+        {
+          "id": "n26_smart_mensual",
+          "name": "N26 SMART Mensual",
+          "monthly_price": 4.9,
+          "annual_price": null,
+          "url": "https://n26.com/es-es/cuentas"
+        },
+        {
+          "id": "n26_smart_anual",
+          "name": "N26 SMART Anual",
+          "monthly_price": 4.9,
+          "annual_price": 47.0,
+          "url": "https://n26.com/es-es/cuentas"
+        },
+        {
+          "id": "n26_go_mensual",
+          "name": "N26 GO Mensual",
+          "monthly_price": 9.9,
+          "annual_price": null,
+          "url": "https://n26.com/es-es/cuentas"
+        },
+        {
+          "id": "n26_go_anual",
+          "name": "N26 GO Anual",
+          "monthly_price": 9.9,
+          "annual_price": 95.0,
+          "url": "https://n26.com/es-es/cuentas"
+        },
+        {
+          "id": "n26_metal_mensual",
+          "name": "N26 METAL Mensual",
+          "monthly_price": 16.9,
+          "annual_price": null,
+          "url": "https://n26.com/es-es/cuentas"
+        },
+        {
+          "id": "n26_metal_anual",
+          "name": "N26 METAL Anual",
+          "monthly_price": 16.9,
+          "annual_price": 162.2,
+          "url": "https://n26.com/es-es/cuentas"
+        },
+        {
+          "id": "paypal_business",
+          "name": "PayPal Business",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://www.paypal.com"
+        },
+        {
+          "id": "wise_multi-currency",
+          "name": "Wise Multi-Currency",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://wise.com/es/pricing"
+        }
+      ]
+    },
+    "comunicacion": {
+      "name": "Comunicación",
+      "icon": "💬",
+      "platforms": [
+        {
+          "id": "zoom_pro_mensual",
+          "name": "Zoom Pro Mensual",
+          "monthly_price": 13.99,
+          "annual_price": null,
+          "url": "https://zoom.us"
+        },
+        {
+          "id": "zoom_pro_anual",
+          "name": "Zoom Pro Anual",
+          "monthly_price": 13.99,
+          "annual_price": 139.9,
+          "url": "https://zoom.us"
+        },
+        {
+          "id": "zoom_business_mensual",
+          "name": "Zoom Business Mensual",
+          "monthly_price": 18.99,
+          "annual_price": null,
+          "url": "https://zoom.us"
+        },
+        {
+          "id": "zoom_business_anual",
+          "name": "Zoom Business Anual",
+          "monthly_price": 18.99,
+          "annual_price": 189.9,
+          "url": "https://zoom.us"
+        },
+        {
+          "id": "microsoft_teams_essentials_mensual",
+          "name": "Microsoft Teams Essentials Mensual",
+          "monthly_price": 3.7,
+          "annual_price": null,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "microsoft_teams_essentials_anual",
+          "name": "Microsoft Teams Essentials Anual",
+          "monthly_price": 3.7,
+          "annual_price": 44.4,
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "id": "skype_creditos",
+          "name": "Skype Créditos",
+          "monthly_price": 7.0,
+          "annual_price": null,
+          "url": "https://www.skype.com"
+        },
+        {
+          "id": "whatsapp_business_api",
+          "name": "WhatsApp Business API",
+          "monthly_price": null,
+          "annual_price": null,
+          "url": "https://business.whatsapp.com"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "total_platforms": 749,
+    "last_updated": "2025-12-19",
+    "source": "SubscriptionsPlansData.swift"
+  }
+}
